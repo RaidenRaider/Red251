@@ -249,5 +249,5 @@ db $0F, $60, $40; Larvitar
 db $0F, $40, $80; Pupitar
 db $0F, $3C, $C0; Tyranitar
 db $09, $80, $40; Lugia
-db $09, $80, $40; Ho-Oh
+db $09, $80, $40; Ho_Oh
 db $1E, $EE, $FF; Celebi

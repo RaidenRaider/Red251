@@ -249,5 +249,5 @@ db LARVITAR   ; Larvitar
 db LARVITAR   ; Pupitar
 db LARVITAR   ; Tyranitar
 db LUGIA      ; Lugia
-db HO-OH      ; Ho-Oh
+db HO_OH      ; Ho_Oh
 db CELEBI     ; Celebi

@@ -9,7 +9,7 @@ SouthernIslandInsideObject:
 
 	db $2 ; people
 	db SPRITE_BIRD, $b + 4, $c + 4, $ff, $d0, TRAINER | $1, LUGIA, 60 | OW_POKEMON
-	db SPRITE_BIRD, $b + 4, $e + 4, $ff, $d0, TRAINER | $2, HO-OH, 60 | OW_POKEMON
+	db SPRITE_BIRD, $b + 4, $e + 4, $ff, $d0, TRAINER | $2, HO_OH, 60 | OW_POKEMON
 
 	; warp-to
 	EVENT_DISP SOUTHERN_ISLAND_INSIDE_WIDTH, $15, $c ; SOUTHERN_ISLAND_OUTSIDE

@@ -123,5 +123,5 @@ MonPartyData: ; 7190d (1c:590d)
 	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED	;Raikou/Entei
 	dn SPRITE_QUADRUPED, SPRITE_MON			;Suicune/Larvitar
 	dn SPRITE_MON, SPRITE_MON				;Pupitar/Tyranitar
-	dn SPRITE_BIRD_M, SPRITE_BIRD_M			;Lugia/Ho-Oh
+	dn SPRITE_BIRD_M, SPRITE_BIRD_M			;Lugia/Ho_Oh
 	dn SPRITE_MON, 0						;Celebi/Padding

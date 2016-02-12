@@ -248,7 +248,7 @@ dw LarvitarDexEntry
 dw PupitarDexEntry
 dw TyranitarDexEntry
 dw LugiaDexEntry
-dw Ho-OhDexEntry
+dw Ho_OhDexEntry
 dw CelebiDexEntry
 
 ; string: species name
@@ -1999,11 +1999,11 @@ LugiaDexEntry:
 	TX_FAR _LugiaDexEntry
 	db "@"
 	
-Ho-OhDexEntry:
+Ho_OhDexEntry:
 	db "RAINBOW@"
 	db 12,6
 	dw 4387
-	TX_FAR _Ho-OhDexEntry
+	TX_FAR _Ho_OhDexEntry
 	db "@"
 
 CelebiDexEntry:

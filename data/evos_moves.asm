@@ -5276,7 +5276,7 @@ Mon249_EvosMoves:
 	db 0
 
 Mon250_EvosMoves: 
-;HO-OH
+;HO_OH
 ;Evolutions
 	db 0
 ;Learnset

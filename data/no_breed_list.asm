@@ -11,6 +11,6 @@ db RAIKOU
 db ENTEI
 db SUICUNE
 db LUGIA
-db HO-OH
+db HO_OH
 db CELEBI
 db $FF ; end of list

@@ -247,6 +247,6 @@ INCLUDE "data/baseStats/larvitar.asm"
 INCLUDE "data/baseStats/pupitar.asm"
 INCLUDE "data/baseStats/tyranitar.asm"
 INCLUDE "data/baseStats/lugia.asm"
-INCLUDE "data/baseStats/ho-oh.asm"
+INCLUDE "data/baseStats/ho_oh.asm"
 INCLUDE "data/baseStats/celebi.asm"
 

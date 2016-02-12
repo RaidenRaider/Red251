@@ -249,7 +249,7 @@ MonsterPalettes: ; 725c8 (1c:65c8)
 	db PAL_CYAN_TRAINER		; PUPITAR
 	db PAL_GREYMON		; TYRANITAR
 	db PAL_BLUEMON   ; LUGIA
-	db PAL_RED_TRAINER ; HO-OH
+	db PAL_RED_TRAINER ; HO_OH
 	db PAL_BLUEMON		; CELEBI
 
 TrainerPalletes:
