@@ -236,5 +236,5 @@ const_value = 0
 	const HS_ARTICUNO                     ; E3 X
 	const HS_MEW                          ; E4
 	const HS_LUGIA                        ; E5
-	const HS_HO-OH                        ; E6
+	const HS_HO_OH                        ; E6
 	const HS_CELEBI                       ; E7

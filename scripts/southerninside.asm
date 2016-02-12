@@ -60,7 +60,7 @@ SouthernIslandInsideLatiosText:
 SouthernIslandInsideLatiasText:
 	TX_FAR _SouthernIslandInsideLatiText
 	db $8
-	ld a, HO-OH
+	ld a, HO_OH
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
