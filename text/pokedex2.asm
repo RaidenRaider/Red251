@@ -867,7 +867,7 @@ _LugiaDexEntry::
 	next "night of a storm."
 	dex
 	
-_Ho-OhDexEntry::
+_Ho_OhDexEntry::
 	text "Its feathers are"
 	next "in seven colors."
 	next "It is said that"

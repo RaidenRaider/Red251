@@ -248,6 +248,6 @@ db "LARVITAR@@"
 db "PUPITAR@@@"
 db "TYRANITAR@"
 db "LUGIA@@@@@"
-db "HO-OH@@@@@"
+db "HO_OH@@@@@"
 db "CELEBI@@@@"
 

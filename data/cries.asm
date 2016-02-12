@@ -232,7 +232,7 @@ db $15, $00, $80; Houndoom
 db $19, $00, $30; Kingdra
 db $04, $00, $80; Phanpy
 db $11, $00, $80; Donphan
-db $25, $88, $FF; Porygon2
+db $25, $88, $FF; Porygon 2
 db $1D, $11, $40; Stantler
 db $0C, $20, $80; Smeargle
 db $0C, $EE, $C0; Tyrogue
