@@ -7,7 +7,7 @@ NavelRockLugiaRoomObject:
 	db $0 ; signs
 
 	db $1 ; people
-	db SPRITE_BIRD, $11 + 4, $d + 4, $ff, $d0, TRAINER | $1, LUGIA, 40 | OW_POKEMON
+	db SPRITE_CELEBI, $11 + 4, $d + 4, $ff, $d0, TRAINER | $1, CELEBI, 60 | OW_POKEMON
 
 	; warp-to
 	EVENT_DISP NAVEL_ROCK_LUGIA_ROOM_WIDTH, $18, $10 ; NAVEL_ROCK_CAVE_2

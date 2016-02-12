@@ -9,6 +9,7 @@ TowerMons4:
 	db 18,GASTLY
 	db 25,CUBONE
 	db 20,CUBONE
+	db 25,MISDREAVUS
 	db 22,HAUNTER
 	db 24,HAUNTER
 

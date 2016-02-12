@@ -9,6 +9,7 @@ TowerMons3:
 	db 19,GASTLY
 	db 18,CUBONE
 	db 25,CUBONE
+	db 25,MISDREAVUS
 	db 20,HAUNTER
 	db 25,HAUNTER
 

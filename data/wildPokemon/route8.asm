@@ -8,9 +8,9 @@ Route8Mons:
 	db 20,MEOWTH
 	db 20,MANKEY
 	db 19,SANDSHREW
-	db 17,GROWLITHE
+	db 17,HOUNDOUR
 	db 15,GROWLITHE
-	db 18,LICKITUNG
+	db 18,MAREEP
 
 ; Water Mons
 	db $00

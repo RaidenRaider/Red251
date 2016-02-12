@@ -5,12 +5,12 @@ Route9Mons:
 	db 16,SPEAROW
 	db 14,SANDSHREW
 	db 11,EKANS
-	db 13,SPEAROW
-	db 15,EKANS
+	db 13,HOOTHOOT
+	db 15,SKIPLOOM
 	db 17,SANDSHREW
 	db 17,SPEAROW
 	db 13,EKANS
-	db 17,EKANS
+	db 17,SUNFLORA
 
 ; Water Mons
 	db $00

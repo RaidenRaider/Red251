@@ -119,7 +119,7 @@ TeamMoves: ; Created and updated on 28/06/2015 by Neodymium / Free to use and mo
 	db 3,3,EARTHQUAKE
     ;Nidoking
 	db 4,3,EARTHQUAKE
-    ;Rhyperior
+    ;Tyranitar
 	db 5,3,EARTHQUAKE
     ;Tauros
     db 6,3,EARTHQUAKE
@@ -187,21 +187,21 @@ TeamMoves: ; Created and updated on 28/06/2015 by Neodymium / Free to use and mo
 	db 1,2,SHADOW_BALL
 	db 1,3,HEX
 	db 1,4,PSYBEAM
-    ;Honchkrow
-	db 2,1,NIGHT_SLASH
-	db 2,2,HEX
-	db 2,3,MOONLIGHT
-	db 2,4,ACROBATICS
+	;Haunter
+	db 2,1,NIGHT_SHADE
+	db 2,2,SHADOW_BALL
+	db 2,3,DARK_PULSE
+	db 2,4,MOONBLAST
     ;Houndoom
 	db 3,1,FLAMETHROWER
 	db 3,2,SHADOW_BALL
 	db 3,3,HEX
 	db 3,4,BITE
-    ;Mismagius
-	db 4,1,DARK_PULSE
-	db 4,2,NIGHT_SHADE
-	db 4,3,HEX
-	db 4,4,CONFUSE_RAY
+	;Skarmory
+	db 4,1,AIR_CUTTER
+	db 4,2,SWIFT
+	db 4,3,AIR_SLASH
+	db 4,4,NIGHT_SLASH
     ;Gengar
 	db 5,1,HYPNOSIS
 	db 5,2,DREAM_EATER
@@ -248,7 +248,7 @@ TeamMoves: ; Created and updated on 28/06/2015 by Neodymium / Free to use and mo
 	db 2,2,SHADOW_BALL
 	db 2,3,RECOVER
 	db 2,4,REFLECT
-    ;Rhyperior
+    ;Tyranitar
 	db 3,1,TAKE_DOWN
 	db 3,2,EARTHQUAKE
 	db 3,3,ROCK_TOMB
@@ -281,7 +281,7 @@ TeamMoves: ; Created and updated on 28/06/2015 by Neodymium / Free to use and mo
 	db 2,2,SHADOW_BALL
 	db 2,3,RECOVER
 	db 2,4,REFLECT
-    ;Rhyperior
+    ;Tyranitar
 	db 3,1,TAKE_DOWN
 	db 3,2,EARTHQUAKE
 	db 3,3,ROCK_TOMB
@@ -314,7 +314,7 @@ TeamMoves: ; Created and updated on 28/06/2015 by Neodymium / Free to use and mo
 	db 2,2,SHADOW_BALL
 	db 2,3,RECOVER
 	db 2,4,REFLECT
-    ;Rhyperior
+    ;Tyranitar
 	db 3,1,TAKE_DOWN
 	db 3,2,EARTHQUAKE
 	db 3,3,ROCK_TOMB

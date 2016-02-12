@@ -264,9 +264,13 @@ db ZAPDOS
 db MOLTRES
 db MEWTWO
 db MEW
+db UNOWN
+db RAIKOU
+db ENTEI
+db SUICUNE
 db LUGIA
-db LATIOS
-db LATIAS
+db HO-OH
+db CELEBI
 db $FF
 
 WonderConnectCableText:

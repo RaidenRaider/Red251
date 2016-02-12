@@ -6,3 +6,7 @@ PrizeMonLevelDictionary: ; 5298a (14:698a)
 	db HERACROSS,15
 	db DRATINI,15
 	db PORYGON,15
+
+	db RAIKOU,70
+	db ENTEI,70
+	db SUICUNE,70

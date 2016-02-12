@@ -1508,112 +1508,113 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
-_LugiaDexEntry::
-	text "It is said to be"
-	next "the guardian of"
-	next "the seas. It is"
+_ChikoritaDexEntry::
+	text "A sweet aroma"
+	next "gently wafts from"
+	next "the leaf on its"
 
-	page "rumored to have"
-	next "been seen on the"
-	next "night of a storm"
+	page "head. It is docile"
+	next "and loves to soak"
+	next "up the sun's rays"
 	dex
-	
-_HoundourDexEntry::
-	text "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
-	
-	page "area to announce"
-	next "that this is its"
-	next "territory"
+
+_BayleefDexEntry::
+	text "The scent of spices"
+	next "comes from around"
+	next "its neck. Somehow,"
+
+	page "sniffing it makes"
+	next "you want to fight"
+	next ""
 	dex
-	
-_HoundoomDexEntry::
-	text "If you are burned"
-	next "by the flames it"
-	next "shoots from its"
-	
-	page "mouth, the pain"
-	next "will never go"
-	next "away"
+
+_MeganiumDexEntry::
+	text "The aroma that rises"
+	next "from its petals"
+	next "contains a substance"
+
+	page "that calms"
+	next "aggressive feelings."
+	next ""
 	dex
-	
-_MurkrowDexEntry::
-	text "Feared and loathed"
-	next "by many, it is"
-	next "believed to bring"
-	
-	page "misfortune to all"
-	next "those who see it"
-	next "at night"
+
+_CyndaquilDexEntry::
+	text "It is timid, and"
+	next "always curls itself"
+	next "up in a ball."
+
+	page "If attacked, it"
+	next "flares up its back"
+	next "for protection."
 	dex
-	
-_HonchkrowDexEntry::
-	text "It is merciless by"
-	next "nature. It is said"
-	next "that it never"
-	
-	page "forgives the"
-	next "mistakes of its"
-	next "MURKROW followers"
+
+_QuilavaDexEntry::
+	text "Be careful if it"
+	next "turns its back"
+	next "during battle. It"
+
+	page "means that it will"
+	next "attack with the"
+	next "fire on its back."
 	dex
-	
-_HeracrossDexEntry::
-	text "Usually docile, if"
-	next "disturbed while"
-	next "sipping honey, it"
-	
-	page "chases off the"
-	next "intruder with its"
-	next "horn"
+
+_TyphlosionDexEntry::
+	text "If its rage peaks,"
+	next "it becomes so hot"
+	next "that anything that"
+
+	page "touches it will"
+	next "instantly go up"
+	next "in flames."
 	dex
-	
-_EspeonDexEntry::
-	text "By reading air"
-	next "currents, it can"
-	next "predict things"
-	
-	page "such as its foe's"
-	next "next move, or the"
-	next "weather"
+
+_TotodileDexEntry::
+	text "Its well-developed"
+	next "jaws are powerful"
+	next "and capable of"
+
+	page "crushing anything."
+	next "Even its trainer"
+	next "must be careful."
 	dex
-	
-_UmbreonDexEntry::
-	text "When darkness"
-	next "falls, the rings"
-	next "on its body begin"
-	
-	page "to glow, striking"
-	next "fear in the hearts"
-	next "of those nearby"
+
+_CroconawDexEntry::
+	text "If it loses a fang,"
+	next "a new one grows"
+	next "back in its place."
+
+	page "There are always"
+	next "48 fangs lining"
+	next "its mouth."
 	dex
-	
-_GlaceonDexEntry::
-	text "It causes tiny ice"
-	next "crystals to form"
-	next "by lowering the"
-	
-	page "temperature of the"
-	next "surrounding"
-	next "atmosphere"
+
+_FeraligatrDexEntry::
+	text "When it bites with"
+	next "its massive and"
+	next "powerful jaws, it"
+
+	page "shakes its head"
+	next "and savagely tears"
+	next "its victim up."
 	dex
-	
-_LeafeonDexEntry::
-	text "Just like a plant,"
-	next "it uses photo-"
-	next "synthesis. As a"
-	
-	page "result, it is"
-	next "always enveloped"
-	next "in clean air"
+
+_SentretDexEntry::
+	text "A very cautious"
+	next "POKéMON, it raises"
+	next "itself up using"
+
+	page "its tail to get"
+	next "a better view of"
+	next "its surroundings."
 	dex
-	
-_SylveonDexEntry::
-	text "It sends out a"
-	next "soothing aura from"
-	next "its ribbon-like"
-	
-	page "feelers in order"
-	next "to calm fights"
+
+_FurretDexEntry::
+	text "It makes a nest to"
+	next "suit its long and"
+	next "skinny body. The "
+
+	page "nest is impossible"
+	next "for other POKéMON"
+	next "to enter."
 	dex
-	
+

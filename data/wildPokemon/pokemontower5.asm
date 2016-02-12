@@ -9,6 +9,7 @@ TowerMons5:
 	db 21,GASTLY
 	db 20,CUBONE
 	db 27,GASTLY
+	db 28,MISDREAVUS
 	db 22,HAUNTER
 	db 27,HAUNTER
 

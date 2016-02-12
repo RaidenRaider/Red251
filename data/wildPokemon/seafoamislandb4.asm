@@ -2,15 +2,18 @@ IslandMonsB4:
 ; Grass Mons
 	db $0A
 	db 36,GOLBAT
-	db 36,ZUBAT
+	db 32,ZUBAT
 	db 30,KRABBY
+	db 31,QWILFISH
 	db 32,KINGLER
 	db 28,SEEL
-	db 32,SEEL
-	db 27,GOLBAT
-	db 45,ZUBAT
-	db 30,DEWGONG
+	db 38,LANTURN
+	db 27,MANTINE
+	db 45,CROBAT
+	db 30,QUAGSIRE
 	db 34,DEWGONG
+	db 36,WOBBUFFET
+	db 48,SUDOWOODO
 
 ; Water Mons
 	db $00

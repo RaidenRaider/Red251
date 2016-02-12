@@ -36,7 +36,7 @@ NavelRockLugiaRoomText1:
 NavelRockLugiaRoomLugiaText:
 	TX_FAR _NavelRockLugiaRoomLugiaText
 	db $8
-	ld a, LUGIA
+	ld a, CELEBI
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

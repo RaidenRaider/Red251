@@ -2,15 +2,18 @@ ZoneMons3:
 ; Grass Mons
 	db $1E
 	db 29,PARASECT
-	db 21,TAUROS
-	db 22,EXEGGCUTE
+	db 21,STANTLER
+	db 22,PHANPY
 	db 21,TAUROS
 	db 32,NIDORINO
+	db 31,NIDORINA
 	db 19,HERACROSS
 	db 26,EXEGGCUTE
+	db 23,YANMA
 	db 24,CHANSEY
 	db 25,PINSIR
 	db 27,SCYTHER
+	db 28,GIRAFARIG
 
 ; Water Mons
 	db $03

@@ -1,11 +1,14 @@
 ZoneMonsCenter:
 ; Grass Mons
 	db $1E
-	db 22,RHYHORN
+	db 22,LEDYBA
 	db 25,RHYHORN
-	db 22,EXEGGCUTE
+	db 22,SMEARGLE
 	db 24,EXEGGCUTE
+	db 26,SPINARAK
 	db 31,NIDORINO
+	db 34,AIPOM
+	db 33,NOCTOWL
 	db 25,NIDORINA
 	db 31,HERACROSS
 	db 30,PINSIR

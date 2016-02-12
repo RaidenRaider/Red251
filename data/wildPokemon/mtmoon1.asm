@@ -1,10 +1,10 @@
 MoonMons1:
 ; Grass Mons
 	db $0A
-	db 8,ZUBAT
+	db 8,LEDYBA
 	db 7,ZUBAT
-	db 9,ZUBAT
-	db 8,GEODUDE
+	db 9,SPINARAK
+	db 8,YANMA
 	db 6,ZUBAT
 	db 10,SANDSHREW
 	db 10,GEODUDE

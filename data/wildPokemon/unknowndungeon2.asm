@@ -1,15 +1,18 @@
 DungeonMons2:
 	db $0F
-	db 52,CROBAT
+	db 52,FURRET
 	db 57,CROBAT
 	db 50,GRAVELER
+	db 53,FLAAFFY
 	db 56,SANDSLASH
 	db 50,RHYHORN
+	db 56,PUPITAR
 	db 60,DITTO
+	db 54,LEDIAN
 	db 58,ONIX
-	db 58,LICKITUNG
+	db 57,FORRETRESS
 	db 60,RHYDON
-	db 58,RHYDON
+	db 61,URSARING
 
 ; Water Mons
 	db $00

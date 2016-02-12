@@ -36,13 +36,13 @@ PrizeMenuMon2Cost: ; 52868 (14:6868)
 	db "@"
 
 PrizeMenuTMsEntries: ; 5286f (14:686f)
-	db TM_37
-	db TM_24
-	db TM_13
+	db RAIKOU
+	db ENTEI
+	db SUICUNE
 	db "@"
 
 PrizeMenuTMsCost: ; 52873 (14:6873)
-	coins 3300
-	coins 3300
-	coins 3300
+	coins 9999
+	coins 9999
+	coins 9999
 	db "@"

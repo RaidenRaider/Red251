@@ -2,15 +2,18 @@ IslandMonsB1:
 ; Grass Mons
 	db $0A
 	db 30,STARYU
-	db 30,HORSEA
+	db 30,REMORAID
 	db 32,SHELLDER
+	db 28,WOOPER
 	db 32,HORSEA
 	db 28,SLOWPOKE
-	db 30,SEEL
-	db 30,SLOWPOKE
+	db 30,MANTINE
+	db 24,MARILL
+	db 30,DELIBIRD
 	db 28,SEEL
 	db 38,DEWGONG
-	db 37,JYNX
+	db 39,AZUMARILL
+	db 37,POLITOED
 
 ; Water Mons
 	db $00

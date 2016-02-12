@@ -52,7 +52,7 @@ SouthernIslandInsideText2:
 SouthernIslandInsideLatiosText:
 	TX_FAR _SouthernIslandInsideLatiText
 	db $8
-	ld a, LATIOS
+	ld a, LUGIA
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
@@ -60,7 +60,7 @@ SouthernIslandInsideLatiosText:
 SouthernIslandInsideLatiasText:
 	TX_FAR _SouthernIslandInsideLatiText
 	db $8
-	ld a, LATIAS
+	ld a, HO-OH
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

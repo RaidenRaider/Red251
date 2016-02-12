@@ -39,14 +39,16 @@ SuperRodData: ; e919 (3:6919)
 ; fishing groups
 ; number of monsters, followed by level/monster pairs
 FishingGroup1: ; e97d (3:697d)
-	db 2
+	db 3
 	db 15,TENTACOOL
 	db 15,POLIWAG
+	db 15,GOLDEEN
 
 FishingGroup2: ; e982 (3:6982)
-	db 2
+	db 3
 	db 15,GOLDEEN
 	db 15,POLIWAG
+	db 15,KRABBY
 
 FishingGroup3: ; e987 (3:6987)
 	db 3
@@ -55,46 +57,53 @@ FishingGroup3: ; e987 (3:6987)
 	db 15,KRABBY
 
 FishingGroup4: ; e98e (3:698e)
-	db 2
+	db 3
 	db 15,KRABBY
 	db 15,SHELLDER
+	db 20,PSYDUCK
 
 FishingGroup5: ; e993 (3:6993)
-	db 2
+	db 3
 	db 23,POLIWHIRL
 	db 15,SLOWPOKE
+	db 20,HORSEA
 
 FishingGroup6: ; e998 (3:6998)
-	db 4
+	db 5
 	db 15,DRATINI
-	db 15,KRABBY
+	db 25,KINGLER
 	db 15,PSYDUCK
 	db 15,SLOWPOKE
+	db 25,MANTINE
 
 FishingGroup7: ; e9a1 (3:69a1)
-	db 4
+	db 5
 	db 5,TENTACOOL
 	db 15,KRABBY
 	db 15,GOLDEEN
 	db 15,MAGIKARP
+	db 20,RENORAID
 
 FishingGroup8: ; e9aa (3:69aa)
-	db 4
+	db 5
 	db 15,STARYU
 	db 15,HORSEA
 	db 15,SHELLDER
 	db 15,GOLDEEN
+	db 20,QWILFISH
 
 FishingGroup9: ; e9b3 (3:69b3)
-	db 4
+	db 5
 	db 23,SLOWBRO
 	db 23,SEAKING
 	db 23,KINGLER
 	db 23,SEADRA
+	db 24,QUAGSIRE
 
 FishingGroup10: ; e9bc (3:69bc)
-	db 4
+	db 5
 	db 23,SEAKING
 	db 15,KRABBY
 	db 15,GOLDEEN
 	db 15,MAGIKARP
+	db 24,LANTURN

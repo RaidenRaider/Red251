@@ -8,8 +8,8 @@
 	sudo make install
 	cd ..
 
-	git clone --recursive git://github.com/TheFakeMateo/RedPlusPlus.git
-	cd RedPlusPlus
+	git clone --recursive git://github.com/RaidenRaider/Red251.git
+	cd Red251
 
 To build **pokered.gbc** and **pokeblue.gbc**:
 
@@ -33,8 +33,8 @@ In the shell, run:
 	sudo make install
 	cd ..
 
-	git clone --recursive git://github.com/TheFakeMateo/RedPlusPlus.git
-	cd RedPlusPlus
+	git clone --recursive git://github.com/RaidenRaider/Red251.git
+	cd Red251
 
 	make
 
@@ -61,8 +61,8 @@ In the **Cygwin terminal**:
 	lynx -source bootstrap.pypa.io/get-pip.py | python
 	pip install pypng
 
-	git clone --recursive https://github.com/TheFakeMateo/RedPlusPlus.git
-	cd RedPlusPlus
+	git clone --recursive https://github.com/RaidenRaider/Red251.git
+	cd Red251
 
 	make
 	

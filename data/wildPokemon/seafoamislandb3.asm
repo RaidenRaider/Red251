@@ -1,14 +1,17 @@
 IslandMonsB3:
 ; Water Mons
 	db $0A
-	db 31,HORSEA
+	db 31,CORSOLA
 	db 31,SEEL
+	db 31,WOOPER
 	db 33,HORSEA
-	db 33,SEEL
+	db 33,LANTURN
 	db 29,KRABBY
-	db 31,STARYU
-	db 31,KRABBY
+	db 30,QWILFISH
+	db 31,MANTINE
+	db 31,WOBBUFFET
 	db 29,STARYU
+	db 32,PILOSWINE
 	db 39,SLOWKING
 	db 37,DEWGONG
 

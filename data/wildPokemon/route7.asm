@@ -5,9 +5,9 @@ Route7Mons:
 	db 19,ABRA
 	db 17,MANKEY
 	db 22,VULPIX
-	db 22,PIDGEY
+	db 22,NATU
 	db 18,MEOWTH
-	db 18,VULPIX
+	db 18,SLUGMA
 	db 20,GROWLITHE
 	db 19,HOUNDOUR
 	db 20,MURKROW

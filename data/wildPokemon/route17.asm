@@ -1,12 +1,12 @@
 Route17Mons:
 ; Grass Mons
 	db $19
-	db 26,DODUO
-	db 27,FEAROW
-	db 27,DODUO
-	db 28,DODUO
+	db 26,SENTRET
+	db 27,NOCTOWL
+	db 27,LEDIAN
+	db 28,ARIADOS
 	db 28,SLUGMA
-	db 30,PONYTA
+	db 30,HOUNDOUR
 	db 29,FEAROW
 	db 28,DODUO
 	db 32,PONYTA

@@ -1904,13 +1904,8 @@ W_SEAFOAMISLANDS5CURSCRIPT:: ; d668
 W_ROUTE18GATECURSCRIPT:: ; d669
 	ds 1
 W_GAMEPROGRESSFLAGSEND::
-
 ; unused bytes originally allocated with game progress flags
-	ds 100
-
-
-
-
+ds 100
 ; Battle Tower's Trainer Class points here for team data
 ; Only has room for 1 trainer entry, but it is randomized
 ; Structure will be loaded by Battle Tower scripts
@@ -1919,13 +1914,13 @@ W_GAMEPROGRESSFLAGSEND::
 wBattleTowerTrainer::
 wBattleTowerTrainerType::
 ; always $FD - "Special Pic" Trainer type
-	ds 1
+ds 1
 wBattleTowerTrainerPic::
 ; db Random trainer pic ID
-	ds 1
+ds 1
 wBattleTowerTrainerLevel::
 ; level for all Pokemon on the team
-	ds 1
+ds 1
 wBattleTowerTrainerParty::
 ; Entry will not always be 6 Pokemon depending on the round
 ;
@@ -1936,23 +1931,20 @@ wBattleTowerTrainerParty::
 ; db Random Pokemon ID #5
 ; db Random Pokemon ID #6
 ; db 0 - End of entry
-	ds 7
-
+ds 7
 wBattleTowerCup::
 ; Holds which Cup the player has chosen
 ; 0 = Little Cup
 ; 1 = Pika Cup
 ; 2 = Poke Cup
 ; 3 = Master Cup
-	ds 1
-
+ds 1
 wBattleTowerCurLevelsCleared::
 ; Stores how many trainers the player has beaten so far
-	ds 1
-	
+ds 1
 wBattleTowerBP::
 ; Stores how many BP or Battle Points the player has earned
-	ds 2
+ds 2
 
 
 ; variable sprites can be changed with scripts

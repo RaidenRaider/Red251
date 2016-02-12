@@ -1,15 +1,17 @@
 TunnelMonsB1:
 ; Grass Mons
 	db $0F
-	db 16,ZUBAT
+	db 14,CORSOLA
+	db 15,HOOTHOOT
 	db 17,ZUBAT
+	db 13,SHUCKLE
+	db 14,PHANPY
 	db 17,GEODUDE
-	db 15,MACHOP
-	db 16,GEODUDE
+	db 19,GLIGAR
 	db 18,DITTO
-	db 15,TORKOAL
+	db 18,SENTRET
 	db 17,MACHOP
-	db 13,ONIX
+	db 20,SUDOWOODO
 	db 15,ONIX
 
 ; Water Mons

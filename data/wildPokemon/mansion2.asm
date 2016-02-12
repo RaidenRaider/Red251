@@ -5,12 +5,14 @@ MansionMons2:
 	db 34,VULPIX
 	db 34,KOFFING
 	db 30,PONYTA
-	db 30,KOFFING
+	db 31,SLUGMA
+	db 40,MAGCARGO
 	db 32,NINETALES
 	db 30,GRIMER
+	db 45,SKARMORY
 	db 28,MUK
 	db 39,WEEZING
-	db 37,MAGMAR
+	db 42,MAGMAR
 
 ; Water Mons
 	db $00

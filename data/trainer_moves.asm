@@ -1,15 +1,20 @@
 TeamMoves:
 	db BROCK,$1
+	;Zubat
+	db 1,1,SUPERSONIC
+	db 1,2,GUST
+	db 1,3,BITE
+	db 1,4,WING_ATTACK
     ;Geodude
-	db 1,1,TACKLE
-	db 1,2,DEFENSE_CURL
-	db 1,3,HARDEN
-	db 1,4,ROCK_POLISH
-    ;Onix
 	db 2,1,TACKLE
-	db 2,2,BIND
+	db 2,2,DEFENSE_CURL
 	db 2,3,HARDEN
-	db 2,4,ROCK_TOMB
+	db 2,4,ROCK_POLISH
+    ;Onix
+	db 3,1,TACKLE
+	db 3,2,BIND
+	db 3,3,HARDEN
+	db 3,4,ROCK_TOMB
 	db 0
 
 	db MISTY,$1
@@ -18,11 +23,21 @@ TeamMoves:
 	db 1,2,HARDEN
 	db 1,3,RECOVER
 	db 1,4,WATER_PULSE
-    ;Starmie
-	db 2,1,TACKLE
-	db 2,2,SWIFT
-	db 2,3,RECOVER
+    ;Goldeen
+	db 2,1,SUPERSONIC
+	db 2,2,HORN_ATTACK
+	db 2,3,QUICK_ATTACK
 	db 2,4,WATER_PULSE
+	;Poliwag
+	db 3,1,WATER_GUN
+	db 3,2,HYPNOSIS
+	db 3,3,BUBBLE
+	db 3,4,DOUBLESLAP
+	;Starmie
+	db 4,1,TACKLE
+	db 4,2,SWIFT
+	db 4,3,RECOVER
+	db 4,4,WATER_PULSE
 	db 0
 
 	db LT__SURGE,$1
@@ -31,16 +46,26 @@ TeamMoves:
 	db 1,2,TACKLE
 	db 1,3,SCREECH
 	db 1,4,SONICBOOM
-    ;Pikachu
-	db 2,1,THUNDERBOLT
-	db 2,2,THUNDER_WAVE
+	;Magneton
+	db 2,1,THUNDERSHOCK
+	db 2,2,SONICBOOM
 	db 2,3,QUICK_ATTACK
-	db 2,4,DOUBLE_TEAM
-    ;Raichu
+	db 2,4,THUNDERBOLT
+    ;Pikachu
 	db 3,1,THUNDERBOLT
 	db 3,2,THUNDER_WAVE
 	db 3,3,QUICK_ATTACK
 	db 3,4,DOUBLE_TEAM
+	;Electrode
+	db 4,1,QUICK_ATTACK
+	db 4,2,THUNDERBOLT
+	db 4,3,SWIFT
+	db 4,4,SELFDESTRUCT
+    ;Raichu
+	db 5,1,THUNDERBOLT
+	db 5,2,THUNDER_WAVE
+	db 5,3,QUICK_ATTACK
+	db 5,4,DOUBLE_TEAM
 	db 0
 
 	db ERIKA,$1
@@ -59,6 +84,16 @@ TeamMoves:
 	db 3,2,SOLARBEAM
 	db 3,3,GIGA_DRAIN
 	db 3,4,PETAL_DANCE
+	;Stantler
+	db 4,1,RAGE
+	db 4,2,HEADBUTT
+	db 4,3,STOMP
+	db 4,4,ZEN_HEADBUTT
+	;Scyther
+	db 5,1,QUICK_ATTACK
+	db 5,2,AGILITY
+	db 5,3,SLASH
+	db 5,4,METAL_CLAW
 	db 0
 
 	db KOGA,$1
@@ -77,11 +112,16 @@ TeamMoves:
 	db 3,2,QUICK_ATTACK
 	db 3,3,WING_ATTACK
 	db 3,4,POISON_FANG
+	;Sudowoodo
+	db 4,1,QUICK_ATTACK
+	db 4,2,MIRROR_MOVE
+	db 4,3,SLEEP_POWDER
+	db 4,4,RAZOR_LEAF
     ;Weezing
-	db 4,1,TACKLE
-	db 4,2,SLUDGE
-	db 4,3,SMOKESCREEN
-	db 4,4,TOXIC
+	db 5,1,TACKLE
+	db 5,2,SLUDGE
+	db 5,3,SMOKESCREEN
+	db 5,4,TOXIC
 	db 0
 
 	db BLAINE,$1
@@ -105,11 +145,16 @@ TeamMoves:
 	db 4,2,ROAR
 	db 4,3,EXTREMESPEED
 	db 4,4,FIRE_BLAST
-    ;Magmar
-	db 5,1,FIRE_PUNCH
-	db 5,2,CONFUSE_RAY
-	db 5,3,FIRE_BLAST
-	db 5,4,SMOG
+	;Ninetales
+	db 5,1,QUICK_ATTACK
+	db 5,2,FEINT_ATTACK
+	db 5,3,FLAMETHROWER
+	db 5,4,FIRE_BLAST
+	;Magmar
+	db 6,1,FIRE_PUNCH
+	db 6,2,CONFUSE_RAY
+	db 6,3,FIRE_BLAST
+	db 6,4,SMOG
 	db 0
 
 	db SABRINA,$1
@@ -128,11 +173,21 @@ TeamMoves:
 	db 3,2,QUICK_ATTACK
 	db 3,3,SWIFT
 	db 3,4,PSYCHIC
+	;Girafarig
+	db 4,1,QUICK_ATTACK
+	db 4,2,SWIFT
+	db 4,3,ANCIENTPOWER
+	db 4,4,PSYBEAM
     ;Alakazam
-	db 4,1,PSYBEAM
-	db 4,2,RECOVER
-	db 4,3,PSYWAVE
-	db 4,4,REFLECT
+	db 5,1,PSYBEAM
+	db 5,2,RECOVER
+	db 5,3,PSYWAVE
+	db 5,4,REFLECT
+	;Jynx
+	db 6,1,DOUBLESLAP
+	db 6,2,DRAININGKISS
+	db 6,3,SING
+	db 6,4,PSYCHIC
 	db 0
 
 	db GIOVANNI,$3 ; Only does 1 custom move, rest are natural
@@ -144,36 +199,43 @@ TeamMoves:
 	db 3,3,EARTHQUAKE
     ;Nidoking
 	db 4,3,EARTHQUAKE
-    ;Rhyperior
+	;Ursaring
 	db 5,3,EARTHQUAKE
+    ;Tyranitar
+	db 6,3,EARTHQUAKE
 	db 0
 
 	db LORELEI,$1
+	;Corsola
+	db 1,1,WATER_GUN
+	db 1,2,WATER_PULSE
+	db 1,3,ICE_BEAM
+	db 1,4,HYDRO_PUMP
     ;Dewgong
-	db 1,1,SURF
-	db 1,2,ICE_BEAM
-	db 1,3,AURORA_BEAM
-	db 1,4,REST
+	db 2,1,SURF
+	db 2,2,ICE_BEAM
+	db 2,3,AURORA_BEAM
+	db 2,4,REST
     ;Cloyster
-	db 2,1,CLAMP
-	db 2,2,SPIKE_CANNON
-	db 2,3,ICE_BEAM
-	db 2,4,BLIZZARD
+	db 3,1,CLAMP
+	db 3,2,SPIKE_CANNON
+	db 3,3,ICE_BEAM
+	db 3,4,BLIZZARD
     ;Slowking
-	db 3,1,ICE_BEAM
-	db 3,2,AMNESIA
-	db 3,3,SURF
-	db 3,4,PSYCHIC
+	db 4,1,ICE_BEAM
+	db 4,2,AMNESIA
+	db 4,3,SURF
+	db 4,4,PSYCHIC
     ;Jynx
-	db 4,1,DOUBLESLAP
-	db 4,2,ICE_PUNCH
-	db 4,3,DRAININGKISS
-	db 4,4,LOVELY_KISS
+	db 5,1,DOUBLESLAP
+	db 5,2,ICE_PUNCH
+	db 5,3,DRAININGKISS
+	db 5,4,LOVELY_KISS
     ;Lapras
-	db 5,1,BODY_SLAM
-	db 5,2,CONFUSE_RAY
-	db 5,3,SURF
-	db 5,4,ICE_BEAM
+	db 6,1,BODY_SLAM
+	db 6,2,CONFUSE_RAY
+	db 6,3,SURF
+	db 6,4,ICE_BEAM
 	db 0
 
 	db BRUNO,$1
@@ -182,26 +244,31 @@ TeamMoves:
 	db 1,2,ROCK_TOMB
 	db 1,3,IRON_TAIL
 	db 1,4,ROAR
+	;Hitmontop
+	db 2,1,ROLLING_KICK
+	db 2,2,DOUBLE_KICK
+	db 2,3,FEINT_ATTACK
+	db 2,4,MEGA_KICK
     ;Hitmonchan
-	db 2,1,SHADOW_PUNCH
-	db 2,2,ICE_PUNCH
-	db 2,3,THUNDERPUNCH
-	db 2,4,FIRE_PUNCH
+	db 3,1,SHADOW_PUNCH
+	db 3,2,ICE_PUNCH
+	db 3,3,THUNDERPUNCH
+	db 3,4,FIRE_PUNCH
     ;Hitmonlee
-	db 3,1,MEGA_KICK
-	db 3,2,HI_JUMP_KICK
-	db 3,3,DOUBLE_KICK
-	db 3,4,DOUBLE_TEAM
+	db 4,1,MEGA_KICK
+	db 4,2,HI_JUMP_KICK
+	db 4,3,DOUBLE_KICK
+	db 4,4,DOUBLE_TEAM
     ;Steelix
-	db 4,1,DOUBLE_EDGE
-	db 4,2,IRON_TAIL
-	db 4,3,IRON_DEFENSE
-	db 4,4,ROCK_TOMB
+	db 5,1,DOUBLE_EDGE
+	db 5,2,IRON_TAIL
+	db 5,3,IRON_DEFENSE
+	db 5,4,ROCK_TOMB
     ;Machamp
-	db 5,1,CROSS_CHOP
-	db 5,2,ROCK_TOMB
-	db 5,3,STRENGTH
-	db 5,4,SUBMISSION
+	db 6,1,CROSS_CHOP
+	db 6,2,ROCK_TOMB
+	db 6,3,STRENGTH
+	db 6,4,SUBMISSION
 	db 0
 
 	db AGATHA,$1
@@ -210,26 +277,31 @@ TeamMoves:
 	db 1,2,SHADOW_BALL
 	db 1,3,HEX
 	db 1,4,PSYBEAM
-    ;Honchkrow
-	db 2,1,NIGHT_SLASH
-	db 2,2,HEX
-	db 2,3,MOONLIGHT
-	db 2,4,ACROBATICS
+	;Haunter
+	db 2,1,NIGHT_SHADE
+	db 2,2,SHADOW_BALL
+	db 2,3,DARK_PULSE
+	db 2,4,MOONBLAST
     ;Houndoom
 	db 3,1,FLAMETHROWER
 	db 3,2,SHADOW_BALL
 	db 3,3,HEX
 	db 3,4,BITE
-    ;Mismagius
-	db 4,1,DARK_PULSE
+	;Murkrow
+	db 4,1,WING_ATTACK
 	db 4,2,NIGHT_SHADE
 	db 4,3,HEX
-	db 4,4,CONFUSE_RAY	
+	db 4,4,NIGHT_SLASH	
+	;Skarmory
+	db 5,1,AIR_CUTTER
+	db 5,2,SWIFT
+	db 5,3,AIR_SLASH
+	db 5,4,NIGHT_SLASH
     ;Gengar
-	db 5,1,HYPNOSIS
-	db 5,2,DREAM_EATER
-	db 5,3,HEX
-	db 5,4,MOONLIGHT
+	db 6,1,HYPNOSIS
+	db 6,2,DREAM_EATER
+	db 6,3,HEX
+	db 6,4,MOONLIGHT
 	db 0
 
 	db LANCE,$1
@@ -253,11 +325,16 @@ TeamMoves:
 	db 4,2,DRAGONBREATH
 	db 4,3,ANCIENTPOWER
 	db 4,4,STEEL_WING
-    ;Dragonite
-	db 5,1,AMNESIA
-	db 5,2,DRAGONBREATH
-	db 5,3,DRACO_METEOR
-	db 5,4,THUNDER_WAVE
+	;Feraligatr
+	db 5,1,WATER_PULSE
+	db 5,2,SKULL_BASH
+	db 5,3,HYDRO_PUMP
+	db 5,4,HYDRO_CANNON 
+   ;Dragonite
+	db 6,1,AMNESIA
+	db 6,2,DRAGONBREATH
+	db 6,3,DRACO_METEOR
+	db 6,4,THUNDER_WAVE
 	db 0
 
 	db SONY3,$1 ; Player Chose Charmander

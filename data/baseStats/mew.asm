@@ -14,9 +14,9 @@ dw MewPicFront
 dw MewPicBack
 ; attacks known at lvl 0
 db POUND
-db 0
-db 0
-db 0
+db TRANSFORM
+db METRONOME
+db SWIFT
 db 3 ; growth rate
 ; include learnset directly
 	tmlearn 1,2,3,4,5,6,7,8

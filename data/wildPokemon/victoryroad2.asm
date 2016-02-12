@@ -4,8 +4,8 @@ PlateauMons2:
 	db 40,SANDSLASH
 	db 42,RHYHORN
 	db 41,GRAVELER
-	db 40,ONIX
-	db 41,ONIX
+	db 40,XATU
+	db 41,SHUCKLE
 	db 42,ONIX
 	db 41,MACHOKE
 	db 40,CROBAT
