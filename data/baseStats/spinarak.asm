@@ -1,4 +1,4 @@
-WeedleBaseStats: ; 3852e (e:452e)
+SpinarakBaseStats: ; 3852e (e:452e)
 db DEX_SPINARAK ; pokedex id
 db 40 ; base hp
 db 60 ; base attack

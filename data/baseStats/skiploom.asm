@@ -1,4 +1,4 @@
-GloomBaseStats: ; 38892 (e:4892)
+SkiploomBaseStats: ; 38892 (e:4892)
 db DEX_SKIPLOOM ; pokedex id
 db 55 ; base hp
 db 45 ; base attack

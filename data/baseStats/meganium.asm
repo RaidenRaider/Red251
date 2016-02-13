@@ -1,4 +1,4 @@
-VenusaurBaseStats: ; 38416 (e:4416)
+MeganiumBaseStats: ; 38416 (e:4416)
 db DEX_MEGANIUM ; pokedex id
 db 80 ; base hp
 db 82 ; base attack

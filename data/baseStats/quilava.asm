@@ -1,4 +1,4 @@
-CharmeleonBaseStats: ; 3844e (e:444e)
+QuilavaBaseStats: ; 3844e (e:444e)
 db DEX_QUILAVA ; pokedex id
 db 58 ; base hp
 db 64 ; base attack

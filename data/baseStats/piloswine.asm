@@ -1,4 +1,4 @@
-DugtrioBaseStats: ; 38956 (e:4956)
+PiloswineBaseStats: ; 38956 (e:4956)
 db DEX_PILOSWINE ; pokedex id
 db 100 ; base hp
 db 100 ; base attack

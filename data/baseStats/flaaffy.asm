@@ -1,4 +1,4 @@
-IvysaurBaseStats: ; 383fa (e:43fa)
+FlaaffyBaseStats: ; 383fa (e:43fa)
 db DEX_FLAAFFY ; pokedex id
 db 70 ; base hp
 db 55 ; base attack

@@ -1,4 +1,4 @@
-TentacoolBaseStats: ; 38ba2 (e:4ba2)
+WooperBaseStats: ; 38ba2 (e:4ba2)
 db DEX_WOOPER ; pokedex id
 db 52 ; base hp
 db 45 ; base attack

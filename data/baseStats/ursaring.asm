@@ -1,4 +1,4 @@
-KabutopsBaseStats: ; 3932e (e:532e)
+UrsaringBaseStats: ; 3932e (e:532e)
 db DEX_URSARING ; pokedex id
 db 90 ; base hp
 db 130 ; base attack

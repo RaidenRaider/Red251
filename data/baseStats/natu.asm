@@ -1,4 +1,4 @@
-SpearowBaseStats: ; 3860e (e:460e)
+NatuBaseStats: ; 3860e (e:460e)
 db DEX_NATU ; pokedex id
 db 40 ; base hp
 db 50 ; base attack

@@ -1,4 +1,4 @@
-FearowBaseStats: ; 3862a (e:462a)
+XatuBaseStats: ; 3862a (e:462a)
 db DEX_XATU ; pokedex id
 db 65 ; base hp
 db 75 ; base attack

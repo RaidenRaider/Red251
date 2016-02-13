@@ -1,4 +1,4 @@
-ButterfreeBaseStats: ; 38512 (e:4512)
+LedianBaseStats: ; 38512 (e:4512)
 db DEX_LEDIAN ; pokedex id
 db 40 ; base hp
 db 20 ; base attack

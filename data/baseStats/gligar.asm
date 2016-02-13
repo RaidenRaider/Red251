@@ -1,4 +1,4 @@
-ZubatBaseStats: ; 3883e (e:483e)
+GligarBaseStats: ; 3883e (e:483e)
 db DEX_GLIGAR ; pokedex id
 db 65 ; base hp
 db 75 ; base attack

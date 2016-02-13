@@ -1,4 +1,4 @@
-BeedrillBaseStats: ; 38566 (e:4566)
+AriadosBaseStats: ; 38566 (e:4566)
 db DEX_ARIADOS ; pokedex id
 db 65 ; base hp
 db 90 ; base attack

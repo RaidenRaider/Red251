@@ -1,4 +1,4 @@
-VileplumeBaseStats: ; 388ae (e:48ae)
+JumpluffBaseStats: ; 388ae (e:48ae)
 db DEX_JUMPLUFF ; pokedex id
 db 75 ; base hp
 db 55 ; base attack

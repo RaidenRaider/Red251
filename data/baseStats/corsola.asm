@@ -1,4 +1,4 @@
-HorseaBaseStats: ; 39072 (e:5072)
+CorsolaBaseStats: ; 39072 (e:5072)
 db DEX_CORSOLA ; pokedex id
 db 55 ; base hp
 db 55 ; base attack

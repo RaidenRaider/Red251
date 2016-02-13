@@ -1,4 +1,4 @@
-VenusaurBaseStats: ; 38416 (e:4416)
+AmpharosBaseStats: ; 38416 (e:4416)
 db DEX_AMPHAROS ; pokedex id
 db 90 ; base hp
 db 75 ; base attack

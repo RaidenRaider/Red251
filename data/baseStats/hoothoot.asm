@@ -1,4 +1,4 @@
-PidgeyBaseStats: ; 38582 (e:4582)
+HoothootBaseStats: ; 38582 (e:4582)
 db DEX_HOOTHOOT ; pokedex id
 db 40 ; base hp
 db 30 ; base attack

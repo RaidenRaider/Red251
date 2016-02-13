@@ -1,4 +1,4 @@
-MeowthBaseStats: ; 38972 (e:4972)
+SmeargleBaseStats: ; 38972 (e:4972)
 db DEX_SMEARGLE ; pokedex id
 db 55 ; base hp
 db 20 ; base attack

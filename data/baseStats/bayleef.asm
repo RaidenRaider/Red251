@@ -1,4 +1,4 @@
-IvysaurBaseStats: ; 383fa (e:43fa)
+BayleefBaseStats: ; 383fa (e:43fa)
 db DEX_BAYLEEF ; pokedex id
 db 60 ; base hp
 db 62 ; base attack

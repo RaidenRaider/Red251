@@ -1,4 +1,4 @@
-WeepinbellBaseStats: ; 38b6a (e:4b6a)
+SunfloraBaseStats: ; 38b6a (e:4b6a)
 db DEX_SUNFLORA ; pokedex id
 db 75 ; base hp
 db 75 ; base attack

@@ -1,4 +1,4 @@
-SeakingBaseStats: ; 390c6 (e:50c6)
+OctilleryBaseStats: ; 390c6 (e:50c6)
 db DEX_OCTILLERY ; pokedex id
 db 75 ; base hp
 db 105 ; base attack

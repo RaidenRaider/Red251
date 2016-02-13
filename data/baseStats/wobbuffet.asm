@@ -1,4 +1,4 @@
-WartortleBaseStats: ; 384a2 (e:44a2)
+WobbuffetBaseStats: ; 384a2 (e:44a2)
 db DEX_WOBBUFFET ; pokedex id
 db 190 ; base hp
 db 33 ; base attack

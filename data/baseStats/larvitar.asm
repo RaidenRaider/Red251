@@ -1,4 +1,4 @@
-GeodudeBaseStats: ; 38bda (e:4bda)
+LarvitarBaseStats: ; 38bda (e:4bda)
 db DEX_LARVITAR ; pokedex id
 db 50 ; base hp
 db 64 ; base attack

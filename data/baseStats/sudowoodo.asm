@@ -1,4 +1,4 @@
-GeodudeBaseStats: ; 38bda (e:4bda)
+SudowoodoBaseStats: ; 38bda (e:4bda)
 db DEX_SUDOWOODO ; pokedex id
 db 70 ; base hp
 db 100 ; base attack

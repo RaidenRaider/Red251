@@ -1,4 +1,4 @@
-CharmanderBaseStats: ; 38432 (e:4432)
+CyndaquilBaseStats: ; 38432 (e:4432)
 db DEX_CYNDAQUIL ; pokedex id
 db 39 ; base hp
 db 52 ; base attack

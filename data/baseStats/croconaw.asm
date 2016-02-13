@@ -1,4 +1,4 @@
-WartortleBaseStats: ; 384a2 (e:44a2)
+CroconawBaseStats: ; 384a2 (e:44a2)
 db DEX_CROCONAW ; pokedex id
 db 65 ; base hp
 db 80 ; base attack

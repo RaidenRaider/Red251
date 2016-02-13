@@ -1,4 +1,4 @@
-GyaradosBaseStats: ; 391fa (e:51fa)
+MantineBaseStats: ; 391fa (e:51fa)
 db DEX_MANTINE ; pokedex id
 db 65 ; base hp
 db 40 ; base attack

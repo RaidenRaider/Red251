@@ -1,4 +1,4 @@
-DiglettBaseStats: ; 3893a (e:493a)
+SwinubBaseStats: ; 3893a (e:493a)
 db DEX_SWINUB ; pokedex id
 db 50 ; base hp
 db 50 ; base attack

@@ -1,4 +1,4 @@
-LugiaBaseStats: ; 425b (1:425b)
+Ho_OhBaseStats: ; 425b (1:425b)
 db DEX_HO_OH ; pokedex id
 db 106 ; base hp
 db 130 ; base attack

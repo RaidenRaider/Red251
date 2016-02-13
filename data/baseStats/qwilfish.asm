@@ -1,4 +1,4 @@
-GoldeenBaseStats: ; 390aa (e:50aa)
+QwilfishBaseStats: ; 390aa (e:50aa)
 db DEX_QWILFISH ; pokedex id
 db 65 ; base hp
 db 95 ; base attack

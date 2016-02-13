@@ -1,4 +1,4 @@
-BulbasaurBaseStats: ; 383de (e:43de)
+MareepBaseStats: ; 383de (e:43de)
 db DEX_MAREEP ; pokedex id
 db 55 ; base hp
 db 40 ; base attack

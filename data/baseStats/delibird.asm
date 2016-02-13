@@ -1,4 +1,4 @@
-FarfetchdBaseStats: ; 38cd6 (e:4cd6)
+DelibirdBaseStats: ; 38cd6 (e:4cd6)
 db DEX_DELIBIRD ; pokedex id
 db 45 ; base hp
 db 55 ; base attack

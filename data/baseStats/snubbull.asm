@@ -1,4 +1,4 @@
-MeowthBaseStats: ; 38972 (e:4972)
+SnubbullBaseStats: ; 38972 (e:4972)
 db DEX_SNUBBULL ; pokedex id
 db 60 ; base hp
 db 80 ; base attack

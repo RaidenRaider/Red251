@@ -1,4 +1,4 @@
-GeodudeBaseStats: ; 38bda (e:4bda)
+PinecoBaseStats: ; 38bda (e:4bda)
 db DEX_PINECO ; pokedex id
 db 50 ; base hp
 db 65 ; base attack

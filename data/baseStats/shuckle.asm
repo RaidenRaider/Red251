@@ -1,4 +1,4 @@
-StaryuBaseStats: ; 390e2 (e:50e2)
+ShuckleBaseStats: ; 390e2 (e:50e2)
 db DEX_SHUCKLE ; pokedex id
 db 20 ; base hp
 db 10 ; base attack

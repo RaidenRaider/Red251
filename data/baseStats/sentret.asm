@@ -1,4 +1,4 @@
-RattataBaseStats: ; 385d6 (e:45d6)
+SentretBaseStats: ; 385d6 (e:45d6)
 db DEX_SENTRET ; pokedex id
 db 35 ; base hp
 db 46 ; base attack

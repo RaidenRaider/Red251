@@ -1,4 +1,4 @@
-MewBaseStats: ; 425b (1:425b)
+UnownBaseStats: ; 425b (1:425b)
 db DEX_UNOWN ; pokedex id
 db 48 ; base hp
 db 72 ; base attack

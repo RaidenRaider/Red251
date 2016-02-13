@@ -1,4 +1,4 @@
-BulbasaurBaseStats: ; 383de (e:43de)
+ChikoritaBaseStats: ; 383de (e:43de)
 db DEX_CHIKORITA ; pokedex id
 db 45 ; base hp
 db 49 ; base attack

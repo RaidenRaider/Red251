@@ -1,4 +1,4 @@
-TaurosBaseStats: ; 391c2 (e:51c2)
+StantlerBaseStats: ; 391c2 (e:51c2)
 db DEX_STANTLER ; pokedex id
 db 73 ; base hp
 db 95 ; base attack

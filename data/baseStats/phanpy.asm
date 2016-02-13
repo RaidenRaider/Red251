@@ -1,4 +1,4 @@
-RhyhornBaseStats: ; 38fe6 (e:4fe6)
+PhanpyBaseStats: ; 38fe6 (e:4fe6)
 db DEX_PHANPY ; pokedex id
 db 90 ; base hp
 db 60 ; base attack

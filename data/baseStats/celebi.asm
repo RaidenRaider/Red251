@@ -1,4 +1,4 @@
-MewBaseStats: ; 425b (1:425b)
+CelebiBaseStats: ; 425b (1:425b)
 db DEX_CELEBI ; pokedex id
 db 100 ; base hp
 db 100 ; base attack

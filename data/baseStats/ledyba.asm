@@ -1,4 +1,4 @@
-CaterpieBaseStats: ; 384da (e:44da)
+LedybaBaseStats: ; 384da (e:44da)
 db DEX_LEDYBA ; pokedex id
 db 55 ; base hp
 db 35 ; base attack

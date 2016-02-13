@@ -713,7 +713,7 @@ GetMonSpecies: ; 39c37 (e:5c37)
 
 ; Move this into another bank later
 ; Only called in one place, and bank doesn't matter
-INCLUDE "engine/battle/read_trainer.asm"
+; INCLUDE "engine/battle/read_trainer.asm"
 
 TrainerAI: ; 3a52e (e:652e)
 ;XXX called at 34964, 3c342, 3c398

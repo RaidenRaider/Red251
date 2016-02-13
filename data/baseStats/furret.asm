@@ -1,4 +1,4 @@
-RaticateBaseStats: ; 385f2 (e:45f2)
+FurretBaseStats: ; 385f2 (e:45f2)
 db DEX_FURRET ; pokedex id
 db 85 ; base hp
 db 76 ; base attack

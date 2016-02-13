@@ -1,4 +1,4 @@
-WartortleBaseStats: ; 384a2 (e:44a2)
+AzumarillBaseStats: ; 384a2 (e:44a2)
 db DEX_AZUMARILL ; pokedex id
 db 100 ; base hp
 db 50 ; base attack

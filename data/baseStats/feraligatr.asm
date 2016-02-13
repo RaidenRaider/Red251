@@ -1,4 +1,4 @@
-BlastoiseBaseStats: ; 384be (e:44be)
+FeraligatrBaseStats: ; 384be (e:44be)
 db DEX_FERALIGATR ; pokedex id
 db 85 ; base hp
 db 105 ; base attack

@@ -1,4 +1,4 @@
-CharizardBaseStats: ; 3846a (e:446a)
+TyphlosionBaseStats: ; 3846a (e:446a)
 db DEX_TYPHLOSION ; pokedex id
 db 78 ; base hp
 db 84 ; base attack

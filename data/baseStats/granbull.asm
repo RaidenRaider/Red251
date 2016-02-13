@@ -1,4 +1,4 @@
-PersianBaseStats: ; 3898e (e:498e)
+GranbullBaseStats: ; 3898e (e:498e)
 db DEX_GRANBULL ; pokedex id
 db 90 ; base hp
 db 120 ; base attack

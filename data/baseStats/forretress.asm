@@ -1,4 +1,4 @@
-GravelerBaseStats: ; 38bf6 (e:4bf6)
+ForretressBaseStats: ; 38bf6 (e:4bf6)
 db DEX_FORRETRESS ; pokedex id
 db 75 ; base hp
 db 90 ; base attack

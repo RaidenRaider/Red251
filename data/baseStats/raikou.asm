@@ -1,4 +1,4 @@
-ZapdosBaseStats: ; 3939e (e:539e)
+RaikouBaseStats: ; 3939e (e:539e)
 db DEX_RAIKOU ; pokedex id
 db 90 ; base hp
 db 85 ; base attack

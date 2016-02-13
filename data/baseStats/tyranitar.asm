@@ -1,4 +1,4 @@
-GolemBaseStats: ; 38c12 (e:4c12)
+TyranitarBaseStats: ; 38c12 (e:4c12)
 db DEX_TYRANITAR ; pokedex id
 db 100 ; base hp
 db 134 ; base attack

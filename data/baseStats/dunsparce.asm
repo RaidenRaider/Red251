@@ -1,4 +1,4 @@
-GoldeenBaseStats: ; 390aa (e:50aa)
+DunsparceBaseStats: ; 390aa (e:50aa)
 db DEX_DUNSPARCE ; pokedex id
 db 100 ; base hp
 db 70 ; base attack

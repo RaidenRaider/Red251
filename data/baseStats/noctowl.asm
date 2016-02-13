@@ -1,4 +1,4 @@
-PidgeottoBaseStats: ; 3859e (e:459e)
+NoctowlBaseStats: ; 3859e (e:459e)
 db DEX_NOCTOWL ; pokedex id
 db 100 ; base hp
 db 50 ; base attack

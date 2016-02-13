@@ -1,4 +1,4 @@
-CaterpieBaseStats: ; 384da (e:44da)
+YanmaBaseStats: ; 384da (e:44da)
 db DEX_YANMA ; pokedex id
 db 65 ; base hp
 db 65 ; base attack

@@ -1,4 +1,4 @@
-KabutoBaseStats: ; 39312 (e:5312)
+TeddiursaBaseStats: ; 39312 (e:5312)
 db DEX_TEDDIURSA ; pokedex id
 db 60 ; base hp
 db 80 ; base attack

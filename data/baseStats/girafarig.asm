@@ -1,4 +1,4 @@
-TaurosBaseStats: ; 391c2 (e:51c2)
+GirafarigBaseStats: ; 391c2 (e:51c2)
 db DEX_GIRAFARIG ; pokedex id
 db 70 ; base hp
 db 80 ; base attack

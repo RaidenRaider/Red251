@@ -5326,6 +5326,7 @@ INCLUDE "engine/slot_machine.asm"
 INCLUDE "engine/overworld/pewter_guys.asm"
 INCLUDE "engine/multiply_divide.asm"
 INCLUDE "engine/game_corner_slots.asm"
+INCLUDE "engine/battle/read_trainer.asm"
 
 
 SECTION "bankE",ROMX,BANK[$E]
@@ -7250,6 +7251,9 @@ SnubbullPicFront::        INCBIN "pic/bmon/snubbull.pic"
 SnubbullPicBack::         INCBIN "pic/monback/snubbull.pic"
 GranbullPicFront::        INCBIN "pic/bmon/granbull.pic"
 GranbullPicBack::         INCBIN "pic/monback/granbull.pic"
+
+SECTION "bank3C",ROMX,BANK[$3C]
+
 QwilfishPicFront::        INCBIN "pic/bmon/qwilfish.pic"
 QwilfishPicBack::         INCBIN "pic/monback/qwilfish.pic"
 ScizorPicFront::   	      INCBIN "pic/bmon/scizor.pic"
@@ -7260,6 +7264,9 @@ HeracrossPicFront::   	  INCBIN "pic/bmon/heracross.pic"
 HeracrossPicBack::    	  INCBIN "pic/monback/heracross.pic"
 SneaselPicFront::         INCBIN "pic/bmon/sneasel.pic"
 SneaselPicBack::          INCBIN "pic/monback/sneasel.pic"
+
+SECTION "bank3D",ROMX,BANK[$3D]
+
 TeddiursaPicFront::       INCBIN "pic/bmon/teddiursa.pic"
 TeddiursaPicBack::        INCBIN "pic/monback/teddiursa.pic"
 UrsaringPicFront::        INCBIN "pic/bmon/ursaring.pic"
@@ -7270,19 +7277,22 @@ MagcargoPicFront::        INCBIN "pic/bmon/magcargo.pic"
 MagcargoPicBack::         INCBIN "pic/monback/magcargo.pic"
 SwinubPicFront::          INCBIN "pic/bmon/swinub.pic"
 SwinubPicBack::           INCBIN "pic/monback/swinub.pic"
+
+SECTION "bank3E",ROMX,BANK[$3E]
+
 PiloswinePicFront::       INCBIN "pic/bmon/piloswine.pic"
 PiloswinePicBack::        INCBIN "pic/monback/piloswine.pic"
 CorsolaPicFront::         INCBIN "pic/bmon/corsola.pic"
 CorsolaPicBack::          INCBIN "pic/monback/corsola.pic"
 RemoraidPicFront::        INCBIN "pic/bmon/remoraid.pic"
 RemoraidPicBack::         INCBIN "pic/monback/remoraid.pic"
+OctilleryPicFront::       INCBIN "pic/bmon/octillery.pic"
+OctilleryPicBack::        INCBIN "pic/monback/octillery.pic"
+DelibirdPicFront::        INCBIN "pic/bmon/delibird.pic"
+DelibirdPicBack::         INCBIN "pic/monback/delibird.pic"
 
-SECTION "bank3C",ROMX,BANK[$3C]
+SECTION "bank3F",ROMX,BANK[$3F]
 
-OctilleryPicFront::        INCBIN "pic/bmon/octillery.pic"
-OctilleryPicBack::         INCBIN "pic/monback/octillery.pic"
-DelibirdPicFront::         INCBIN "pic/bmon/delibird.pic"
-DelibirdPicBack::          INCBIN "pic/monback/delibird.pic"
 MantinePicFront::          INCBIN "pic/bmon/mantine.pic"
 MantinePicBack::           INCBIN "pic/monback/mantine.pic"
 SkarmoryPicFront:          INCBIN "pic/bmon/skarmory.pic"
@@ -7293,6 +7303,9 @@ HoundoomPicFront::    	   INCBIN "pic/bmon/houndoom.pic"
 HoundoomPicBack::     	   INCBIN "pic/monback/houndoom.pic"
 KingdraPicFront::          INCBIN "pic/bmon/kingdra.pic"
 KingdraPicBack::           INCBIN "pic/monback/kingdra.pic"
+
+SECTION "bank40",ROMX,BANK[$40]
+
 PhanpyPicFront::           INCBIN "pic/bmon/phanpy.pic"
 PhanpyPicBack::            INCBIN "pic/monback/phanpy.pic"
 DonphanPicFront::          INCBIN "pic/bmon/donphan.pic"
@@ -7303,6 +7316,9 @@ StantlerPicFront::         INCBIN "pic/bmon/stantler.pic"
 StantlerPicBack::          INCBIN "pic/monback/stantler.pic"
 SmearglePicFront::         INCBIN "pic/bmon/smeargle.pic"
 SmearglePicBack::          INCBIN "pic/monback/smeargle.pic"
+
+SECTION "bank41",ROMX,BANK[$41]
+
 TyroguePicFront::          INCBIN "pic/bmon/tyrogue.pic"
 TyroguePicBack::           INCBIN "pic/monback/tyrogue.pic"
 HitmontopPicFront::        INCBIN "pic/bmon/hitmontop.pic"
@@ -7313,11 +7329,11 @@ ElekidPicFront::           INCBIN "pic/bmon/elekid.pic"
 ElekidPicBack::            INCBIN "pic/monback/elekid.pic"
 MagbyPicFront::            INCBIN "pic/bmon/magby.pic"
 MagbyPicBack::             INCBIN "pic/monback/magby.pic"
+
+SECTION "bank42",ROMX,BANK[$42]
+
 MiltankPicFront::          INCBIN "pic/bmon/miltank.pic"
 MiltankPicBack::           INCBIN "pic/monback/miltank.pic"
-
-SECTION "bank3D",ROMX,BANK[$3D]
-
 BlisseyPicFront::          INCBIN "pic/bmon/blissey.pic"
 BlisseyPicBack::           INCBIN "pic/monback/blissey.pic"
 RaikouPicFront::           INCBIN "pic/bmon/raikou.pic"
@@ -7326,6 +7342,9 @@ EnteiPicFront::            INCBIN "pic/bmon/entei.pic"
 EnteiPicBack::             INCBIN "pic/monback/entei.pic"
 SuicunePicFront::          INCBIN "pic/bmon/suicune.pic"
 SuicunePicBack::           INCBIN "pic/monback/suicune.pic"
+
+SECTION "bank43",ROMX,BANK[$43]
+
 LarvitarPicFront::         INCBIN "pic/bmon/larvitar.pic"
 LarvitarPicBack::          INCBIN "pic/monback/larvitar.pic"
 PupitarPicFront::          INCBIN "pic/bmon/pupitar.pic"

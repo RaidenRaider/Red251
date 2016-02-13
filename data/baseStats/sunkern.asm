@@ -1,4 +1,4 @@
-BellsproutBaseStats: ; 38b4e (e:4b4e)
+SunkernBaseStats: ; 38b4e (e:4b4e)
 db DEX_SUNKERN ; pokedex id
 db 30 ; base hp
 db 30 ; base attack

@@ -139,7 +139,6 @@ _TogeticDexEntry::
 	dex
 	
 _NatuDexEntry::
-		  staring at something.
 	text "Because its wings"
 	next "aren't yet fully"
 	next "grown, it has to hop"

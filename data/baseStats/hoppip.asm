@@ -1,4 +1,4 @@
-OddishBaseStats: ; 38876 (e:4876)
+HoppipBaseStats: ; 38876 (e:4876)
 db DEX_HOPPIP ; pokedex id
 db 35 ; base hp
 db 35 ; base attack

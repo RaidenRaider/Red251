@@ -1,4 +1,4 @@
-GoldeenBaseStats: ; 390aa (e:50aa)
+RemoraidBaseStats: ; 390aa (e:50aa)
 db DEX_REMORAID ; pokedex id
 db 35 ; base hp
 db 65 ; base attack

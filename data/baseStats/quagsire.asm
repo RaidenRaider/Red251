@@ -1,4 +1,4 @@
-TentacruelBaseStats: ; 38bbe (e:4bbe)
+QuagsireBaseStats: ; 38bbe (e:4bbe)
 db DEX_QUAGSIRE ; pokedex id
 db 95 ; base hp
 db 85 ; base attack

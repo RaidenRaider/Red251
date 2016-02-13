@@ -1,4 +1,4 @@
-GravelerBaseStats: ; 38bf6 (e:4bf6)
+PupitarBaseStats: ; 38bf6 (e:4bf6)
 db DEX_PUPITAR ; pokedex id
 db 70 ; base hp
 db 84 ; base attack

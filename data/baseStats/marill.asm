@@ -1,4 +1,4 @@
-SquirtleBaseStats: ; 38486 (e:4486)
+MarillBaseStats: ; 38486 (e:4486)
 db DEX_MARILL ; pokedex id
 db 70 ; base hp
 db 20 ; base attack

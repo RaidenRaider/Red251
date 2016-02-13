@@ -1,4 +1,4 @@
-SquirtleBaseStats: ; 38486 (e:4486)
+TotodileBaseStats: ; 38486 (e:4486)
 db DEX_TOTODILE ; pokedex id
 db 50 ; base hp
 db 65 ; base attack

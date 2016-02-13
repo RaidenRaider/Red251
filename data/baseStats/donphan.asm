@@ -1,4 +1,4 @@
-RhydonBaseStats: ; 39002 (e:5002)
+DonphanBaseStats: ; 39002 (e:5002)
 db DEX_DONPHAN ; pokedex id
 db 90 ; base hp
 db 120 ; base attack

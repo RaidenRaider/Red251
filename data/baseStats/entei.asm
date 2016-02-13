@@ -1,4 +1,4 @@
-MoltresBaseStats: ; 393ba (e:53ba)
+EnteiBaseStats: ; 393ba (e:53ba)
 db DEX_ENTEI ; pokedex id
 db 115 ; base hp
 db 115 ; base attack
