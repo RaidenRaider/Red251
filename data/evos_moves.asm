@@ -3797,7 +3797,7 @@ Mon178_EvosMoves:
 Mon179_EvosMoves:
 ;MAREEP
 ;Evolutions
-	db EV_LEVEL,25,FLAAFY
+	db EV_LEVEL,25,FLAAFFY
 	db 0
 ;Learnset
 	db 7,GROWL
@@ -3817,7 +3817,7 @@ Mon179_EvosMoves:
 	db 0
 	
 Mon180_EvosMoves:
-;FLAAFY
+;FLAAFFY
 ;Evolutions
 	db EV_ITEM,THUNDER_STONE,1,AMPHAROS
 	db 0
@@ -4259,7 +4259,7 @@ Mon201_EvosMoves:
 	db 0
 
 Mon202_EvosMoves:
-;WOBUFFET
+;WOBBUFFET
 ;Evolutions
 	db 0
 ;Learnset

@@ -4,10 +4,8 @@ WaterMons:
 
 ; Water Mons
 	db $05
-	db 10,TENTACOOL
 	db 10,GOLDEEN
 	db 10,QWILFISH
-	db 10,TENTACOOL
 	db 10,STARYU
 	db 15,GOLDEEN
 	db 15,WOOPER
@@ -22,6 +20,5 @@ WaterMons:
 	db 25,CHINCHOU
 	db 25,CHINCHOU
 	db 30,TENTACOOL
-	db 35,TENTACOOL
 	db 40,TENTACRUEL
 	db 45,MANTINE

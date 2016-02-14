@@ -330,7 +330,7 @@ TeamMoves:
 	db 5,2,SKULL_BASH
 	db 5,3,HYDRO_PUMP
 	db 5,4,HYDRO_CANNON 
-   ;Dragonite
+    ;Dragonite
 	db 6,1,AMNESIA
 	db 6,2,DRAGONBREATH
 	db 6,3,DRACO_METEOR

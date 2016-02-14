@@ -178,7 +178,7 @@ dw TogeticDexEntry
 dw NatuDexEntry
 dw XatuDexEntry
 dw MareepDexEntry
-dw FlaafyDexEntry
+dw FlaaffyDexEntry
 dw AmpharosDexEntry
 dw BellossomDexEntry
 dw MarillDexEntry
@@ -200,7 +200,7 @@ dw MurkrowDexEntry
 dw SlowkingDexEntry
 dw MisdreavusDexEntry
 dw UnownDexEntry
-dw WobuffetDexEntry
+dw WobbuffetDexEntry
 dw GirafarigDexEntry
 dw PinecoDexEntry
 dw ForretressDexEntry
@@ -1390,11 +1390,11 @@ FurretDexEntry:
 	TX_FAR _FurretDexEntry
 	db "@"
 
-HootHootDexEntry:
+HoothootDexEntry:
 	db "OWL@"
 	db 2,4
 	dw 467
-	TX_FAR _HootHootDexEntry
+	TX_FAR _HoothootDexEntry
 	db "@"
 
 NoctowlDexEntry:
@@ -1663,11 +1663,11 @@ UnownDexEntry:
 	TX_FAR _UnownDexEntry
 	db "@"
 
-WobuffetDexEntry:
+WobbuffetDexEntry:
 	db "PATIENT@"
 	db 4,3
 	dw 628
-	TX_FAR _WobuffetDexEntry
+	TX_FAR _WobbuffetDexEntry
 	db "@"
 
 GirafarigDexEntry:

@@ -179,7 +179,7 @@ db TOGEPI     ; Togetic
 db NATU       ; Natu
 db NATU       ; Xatu
 db MAREEP     ; Mareep
-db MAREEP     ; Flaafy
+db MAREEP     ; Flaaffy
 db MAREEP     ; Ampharos
 db BELLSPROUT ; Bellossom
 db MARILL     ; Marill
@@ -201,7 +201,7 @@ db MURKROW    ; Murkrow
 db SLOWPOKE   ; Slowking
 db MISDREAVUS ; Misdreavus
 db UNOWN      ; Unown
-db WOBUFFET   ; Wobuffet
+db WOBBUFFET  ; Wobbuffet
 db GIRAFARIG  ; Girafarig
 db PINECO     ; Pineco
 db PINECO     ; Forretress
