@@ -9,8 +9,12 @@ _OakSpeechText1::
 	
 	para "This hack was"
 	line "created by"
-	cont "ROMHACKER MATEO."
+	cont "ROMHACKER MATEO,"
 	
+	para "with changes"
+	line "by ROMHACKER"
+	cont "RAIDENRAIDER."
+
 	para "It has a lot of"
 	line "new features that"
 	cont "weren't in Gen 1."
