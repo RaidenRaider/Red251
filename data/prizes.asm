@@ -5,8 +5,8 @@ PrizeDifferentMenuPtrs: ; 52843 (14:6843)
 	dw PrizeMenuMon2Entries
 	dw PrizeMenuMon2Cost
 
-	dw PrizeMenuMon3Entries
-	dw PrizeMenuMon3Cost
+	dw PrizeMenuTMsEntries
+	dw PrizeMenuTMsCost
 
 NoThanksText: ; 5284f (14:684f)
 	db "NO THANKS@"
@@ -35,13 +35,13 @@ PrizeMenuMon2Cost: ; 52868 (14:6868)
 	coins 6500
 	db "@"
 
-PrizeMenuMon3Entries: ; 5286f (14:686f)
+PrizeMenuTMsEntries: ; 5286f (14:686f)
 	db RAIKOU
 	db ENTEI
 	db SUICUNE
 	db "@"
 
-PrizeMenuMon3Cost: ; 52873 (14:6873)
+PrizeMenuTMsCost: ; 52873 (14:6873)
 	coins 9999
 	coins 9999
 	coins 9999

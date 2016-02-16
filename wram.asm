@@ -1906,7 +1906,7 @@ W_ROUTE18GATECURSCRIPT:: ; d669
 W_GAMEPROGRESSFLAGSEND::
 
 ; unused bytes originally allocated with game progress flags
-	ds 100
+	; ds 100
 
 
 

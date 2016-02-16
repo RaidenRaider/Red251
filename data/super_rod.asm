@@ -82,7 +82,7 @@ FishingGroup7: ; e9a1 (3:69a1)
 	db 15,KRABBY
 	db 15,GOLDEEN
 	db 15,MAGIKARP
-	db 20,RENORAID
+	db 20,REMORAID
 
 FishingGroup8: ; e9aa (3:69aa)
 	db 5

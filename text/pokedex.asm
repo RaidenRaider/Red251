@@ -1519,23 +1519,23 @@ _ChikoritaDexEntry::
 	dex
 
 _BayleefDexEntry::
-	text "The scent of spices"
-	next "comes from around"
-	next "its neck. Somehow,"
+	text "The scent of"
+	next "spices comes"
+	next "from around its"
 
-	page "sniffing it makes"
+	page "neck. Somehow,"
+	next "sniffing it makes"
 	next "you want to fight"
-	next ""
 	dex
 
 _MeganiumDexEntry::
-	text "The aroma that rises"
-	next "from its petals"
-	next "contains a substance"
+	text "The aroma that"
+	next "rises from its"
+	next "petals contains"
 
-	page "that calms"
-	next "aggressive feelings."
-	next ""
+	page "a substance that"
+	next "calms aggressive"
+	next "feelings."
 	dex
 
 _CyndaquilDexEntry::
@@ -1600,7 +1600,7 @@ _FeraligatrDexEntry::
 
 _SentretDexEntry::
 	text "A very cautious"
-	next "POKéMON, it raises"
+	next "#MON, it raises"
 	next "itself up using"
 
 	page "its tail to get"
@@ -1614,7 +1614,7 @@ _FurretDexEntry::
 	next "skinny body. The "
 
 	page "nest is impossible"
-	next "for other POKéMON"
+	next "for other #MON"
 	next "to enter."
 	dex
 

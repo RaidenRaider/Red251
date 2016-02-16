@@ -9,7 +9,7 @@ db WATER ; species type 1
 db FAIRY ; species type 2
 db 75 ; catch rate
 db 153 ; base exp yield
-INCBIN "pic/bmon/marill.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/azumarill.pic",0,1 ; 66, sprite dimensions
 dw AzumarillPicFront
 dw AzumarillPicBack
 ; attacks known at lvl 0

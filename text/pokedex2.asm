@@ -1,11 +1,11 @@
-_HootHootDexEntry::
+_HoothootDexEntry::
 	text "It always stands"
 	next "on one foot. It"
 	next "changes feet so"
 
 	page "fast, the"
 	next "movement can"
-	next " rarely be seen."
+	next "rarely be seen."
 	dex
 	
 _NoctowlDexEntry::

@@ -91,7 +91,7 @@ OakSpeech: ; 6115 (1:6115)
 	call PrintText      ; prints text box
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a,SYLVEON
+	ld a,UMBREON
 	ld [wd0b5],a    ; pic displayed is stored at this location
 	ld [wcf91],a
 	call GetMonHeader      ; this is also related to the pic

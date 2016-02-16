@@ -5216,6 +5216,7 @@ INCLUDE "engine/items/tmhm.asm"
 INCLUDE "engine/battle/b_2.asm"
 INCLUDE "engine/game_corner_slots2.asm"
 
+
 SECTION "Pics 4", ROMX, BANK[PICS_4]
 
 GeodudePicFront::    INCBIN "pic/bmon/geodude.pic"
@@ -5324,6 +5325,8 @@ INCLUDE "engine/slot_machine.asm"
 INCLUDE "engine/overworld/pewter_guys.asm"
 INCLUDE "engine/multiply_divide.asm"
 INCLUDE "engine/game_corner_slots.asm"
+INCLUDE "engine/battle/read_trainer.asm"
+
 
 SECTION "bankE",ROMX,BANK[$E]
 
@@ -7072,7 +7075,7 @@ SlowkingPicBack::     INCBIN "pic/monback/slowking.pic"
 MisdreavusPicFront::  INCBIN "pic/bmon/misdreavus.pic"
 MisdreavusPicBack::   INCBIN "pic/monback/misdreavus.pic"
 UnownPicFront::  	  INCBIN "pic/bmon/unown.pic"
-UnownPicBack::    	  INCBIN "pic/monback/unown.pic"
+NnownPicBack::    	  INCBIN "pic/monback/unown.pic"
 WobbuffetPicFront::   INCBIN "pic/bmon/wobbuffet.pic"
 WobbuffetPicBack::    INCBIN "pic/monback/wobbuffet.pic"
 GirafarigPicFront::   INCBIN "pic/bmon/girafarig.pic"
@@ -7210,8 +7213,6 @@ INCLUDE "scripts/DayCareManScript.asm"
 INCLUDE "engine/overworld/ferry_script.asm"
 INCLUDE "engine/battle/physical_special_split.asm"
 
-INCLUDE "engine/battle/read_trainer.asm"
-
 SECTION "trainer pics 2", ROMX,BANK[$39]
 
 ProfOakPic::     INCBIN "pic/trainer/prof.oak.pic"
@@ -7237,7 +7238,7 @@ INCLUDE "engine/splashscreens/mateo_presents.asm"
 INCLUDE "engine/splashscreens/version_screen.asm"
 INCLUDE "engine/splashscreens/players_in_intro.asm"
 
-SECTION "bank3B",ROMX,BANK[$3B]
+SECTION "Pics 6",ROMX,BANK[$3B]
 
 DunsparcePicFront::		  INCBIN "pic/bmon/dunsparce.pic"
 DunsparcePicBack::		  INCBIN "pic/monback/dunsparce.pic"
@@ -7260,7 +7261,7 @@ HeracrossPicBack::    	  INCBIN "pic/monback/heracross.pic"
 SneaselPicFront::         INCBIN "pic/bmon/sneasel.pic"
 SneaselPicBack::          INCBIN "pic/monback/sneasel.pic"
 
-SECTION "bank3C",ROMX,BANK[$3C]
+SECTION "Pics 7",ROMX,BANK[$3C]
 
 TeddiursaPicFront::       INCBIN "pic/bmon/teddiursa.pic"
 TeddiursaPicBack::        INCBIN "pic/monback/teddiursa.pic"
@@ -7283,7 +7284,7 @@ OctilleryPicBack::        INCBIN "pic/monback/octillery.pic"
 DelibirdPicFront::        INCBIN "pic/bmon/delibird.pic"
 DelibirdPicBack::         INCBIN "pic/monback/delibird.pic"
 
-SECTION "bank3D",ROMX,BANK[$3D]
+SECTION "Pics 8",ROMX,BANK[$3D]
 
 MantinePicFront::          INCBIN "pic/bmon/mantine.pic"
 MantinePicBack::           INCBIN "pic/monback/mantine.pic"
@@ -7306,7 +7307,7 @@ StantlerPicBack::          INCBIN "pic/monback/stantler.pic"
 SmearglePicFront::         INCBIN "pic/bmon/smeargle.pic"
 SmearglePicBack::          INCBIN "pic/monback/smeargle.pic"
 
-SECTION "bank3E",ROMX,BANK[$3E]
+SECTION "Pics 9",ROMX,BANK[$3E]
 
 TyroguePicFront::          INCBIN "pic/bmon/tyrogue.pic"
 TyroguePicBack::           INCBIN "pic/monback/tyrogue.pic"
@@ -7329,7 +7330,7 @@ EnteiPicBack::             INCBIN "pic/monback/entei.pic"
 SuicunePicFront::          INCBIN "pic/bmon/suicune.pic"
 SuicunePicBack::           INCBIN "pic/monback/suicune.pic"
 
-SECTION "bank3F",ROMX,BANK[$3F]
+SECTION "Pics 10",ROMX,BANK[$3F]
 
 LarvitarPicFront::         INCBIN "pic/bmon/larvitar.pic"
 LarvitarPicBack::          INCBIN "pic/monback/larvitar.pic"
