@@ -5,7 +5,7 @@ _HoothootDexEntry::
 
 	page "fast, the"
 	next "movement can"
-	next "rarely be seen."
+	next "rarely be seen"
 	dex
 	
 _NoctowlDexEntry::
@@ -15,7 +15,7 @@ _NoctowlDexEntry::
 
 	page "even faint light"
 	next "and enable it to"
-	next "see in the dark."
+	next "see in the dark"
 	dex
 	
 _LedybaDexEntry::
@@ -25,7 +25,7 @@ _LedybaDexEntry::
 
 	page "alone. But it"
 	next "will be active if"
-	next "it is in a group."
+	next "it is in a group"
 	dex
 	
 _LedianDexEntry::
@@ -35,7 +35,7 @@ _LedianDexEntry::
 
 	page "flutters about,"
 	next "scattering a"
-	next "glowing powder."
+	next "glowing powder"
 	dex
 	
 _SpinarakDexEntry::
@@ -45,7 +45,7 @@ _SpinarakDexEntry::
 
 	page "waiting for its"
 	next "unsuspecting prey"
-	next "to wander close."
+	next "to wander close"
 	dex
 
 _AriadosDexEntry::
@@ -55,7 +55,7 @@ _AriadosDexEntry::
 
 	page "its mouth. It is"
 	next "hard to tell which"
-	next "end is which."
+	next "end is which"
 	dex
 
 _CrobatDexEntry::
@@ -65,7 +65,7 @@ _CrobatDexEntry::
 
 	page "so it may not be"
 	next "noticed even when"
-	next "it is nearby."
+	next "it is nearby"
     dex
 	
 _ChinchouDexEntry::
@@ -75,7 +75,7 @@ _ChinchouDexEntry::
 
 	page "the tips of its"
 	next "two antennae and"
-	next "zaps its enemies."
+	next "zaps its enemies"
 	dex
 	
 _LanturnDexEntry::
@@ -85,7 +85,7 @@ _LanturnDexEntry::
 
 	page "then swallows the"
 	next "immobilized prey"
-	next "in a single gulp."
+	next "in a single gulp"
 	dex
 
 _PichuDexEntry::
@@ -95,7 +95,7 @@ _PichuDexEntry::
     
     page "However, if it"
     next "does so, it also"
-    next "surprises itself."
+    next "surprises itself"
     dex
     
 _CleffaDexEntry::
@@ -105,7 +105,7 @@ _CleffaDexEntry::
     
     page "sightings of"
     next "CLEFFA strangely"
-    next "increase."
+    next "increase"
     dex
     
 _IgglybuffDexEntry::
@@ -115,7 +115,7 @@ _IgglybuffDexEntry::
     
     page "around by bouncing"
     next "on its soft,"
-    next "tender body."
+    next "tender body"
     dex
     
 _TogepiDexEntry::
@@ -125,7 +125,7 @@ _TogepiDexEntry::
 	
 	page "It brings joy to"
 	next "everyone around"
-	next "it."
+	next "it"
 	dex
 	
 _TogeticDexEntry::
@@ -135,7 +135,7 @@ _TogeticDexEntry::
 
 	page "people and shower"
 	next "them with"
-	next "happiness."
+	next "happiness"
 	dex
 	
 _NatuDexEntry::
@@ -145,7 +145,7 @@ _NatuDexEntry::
 
 	page "to get around. It"
 	next "is always staring"
-	next "at something."
+	next "at something"
 	dex
 	
 _XatuDexEntry::
@@ -155,7 +155,7 @@ _XatuDexEntry::
 
 	page "seeing both the"
 	next "past and future"
-	next "at the same time."
+	next "at the same time"
 	dex
 
 _MareepDexEntry::
@@ -165,7 +165,7 @@ _MareepDexEntry::
 
 	page "fleece is fully"
 	next "shed, but it grows"
-	next "back in a week."
+	next "back in a week"
 	dex
 
 _FlaaffyDexEntry::
@@ -175,7 +175,7 @@ _FlaaffyDexEntry::
 
 	page "rubbery hide keeps"
 	next "it from being"
-	next "electrocuted."
+	next "electrocuted"
 	dex
 
 _AmpharosDexEntry::
@@ -185,7 +185,7 @@ _AmpharosDexEntry::
 
 	page "can be seen from"
 	next "far away on the"
-	next "ocean's surface."
+	next "ocean's surface"
 	dex
 
 _BellossomDexEntry::
@@ -195,7 +195,7 @@ _BellossomDexEntry::
 	
 	page "rub together and"
 	next "make a pleasant"
-	next "ringing sound."
+	next "ringing sound"
 	dex
 	
 _MarillDexEntry::
@@ -205,7 +205,7 @@ _MarillDexEntry::
 	
 	page "it from drowning,"
 	next "even in a vicious"
-	next "current."
+	next "current"
 	dex
 
 _AzumarillDexEntry::
@@ -215,7 +215,7 @@ _AzumarillDexEntry::
 	
 	page "ears to prevent"
 	next "their insides"
-	next "from getting wet."
+	next "from getting wet"
 	dex
 
 _SudowoodoDexEntry::
@@ -225,7 +225,7 @@ _SudowoodoDexEntry::
 	
 	page "a SUDOWOODO, not"
 	next "a tree. It hides"
-	next "from the rain."
+	next "from the rain"
 	dex
 
 _PolitoedDexEntry::
@@ -234,7 +234,7 @@ _PolitoedDexEntry::
 	next "echoing cry, they"
 	
 	page "gather from far"
-	next "and wide."
+	next "and wide"
 	dex
 	
 _HoppipDexEntry::
@@ -254,7 +254,7 @@ _SkiploomDexEntry::
 	
 	page "the temperature"
 	next "fluctuates up"
-	next "and down."
+	next "and down"
 	dex
 
 _JumpluffDexEntry::
@@ -264,7 +264,7 @@ _JumpluffDexEntry::
 	
 	page "cotton-puff spores"
 	next "to float, even"
-	next "around the world."
+	next "around the world"
 	dex
 
 _AipomDexEntry::
@@ -274,7 +274,7 @@ _AipomDexEntry::
 	
 	page "grab a tree branch"
 	next "and hold itself"
-	next "up in the air."
+	next "up in the air"
 	dex
 
 _SunkernDexEntry::
@@ -284,7 +284,7 @@ _SunkernDexEntry::
 	
 	page "shake its leaves"
 	next "desperately at"
-	next "its attacker."
+	next "its attacker"
 	dex
 
 _SunfloraDexEntry::
@@ -294,7 +294,7 @@ _SunfloraDexEntry::
 	
 	page "but it comes to a"
 	next "complete stop when"
-	next "the sun sets."
+	next "the sun sets"
 	dex
 
 _YanmaDexEntry::
@@ -304,7 +304,7 @@ _YanmaDexEntry::
 	
 	page "directions to"
 	next "seek out insects"
-	next "as its prey."
+	next "as its prey"
 	dex
 
 _WooperDexEntry::
@@ -314,7 +314,7 @@ _WooperDexEntry::
 	
 	page "its body with a"
 	next "slimy, poisonous"
-	next "film."
+	next "film"
 	dex
 
 _QuagsireDexEntry::
@@ -324,7 +324,7 @@ _QuagsireDexEntry::
 	
 	page "bumps its head on"
 	next "boulders and boat"
-	next "hulls as it swims."
+	next "hulls as it swims"
 	dex
 
 _EspeonDexEntry::
@@ -334,7 +334,7 @@ _EspeonDexEntry::
 	
 	page "such as its foe's"
 	next "next move, or the"
-	next "weather."
+	next "weather"
 	dex
 	
 _UmbreonDexEntry::
@@ -344,7 +344,7 @@ _UmbreonDexEntry::
 	
 	page "to glow, striking"
 	next "fear in the hearts"
-	next "of those nearby."
+	next "of those nearby"
 	dex
 	
 _MurkrowDexEntry::
@@ -354,7 +354,7 @@ _MurkrowDexEntry::
 	
 	page "misfortune to all"
 	next "those who see it"
-	next "at night."
+	next "at night"
 	dex
 	
 _SlowkingDexEntry::
@@ -364,7 +364,7 @@ _SlowkingDexEntry::
 
 	page "it much smarter"
 	next "than it would"
-	next "otherwise be."
+	next "otherwise be"
 	dex
 	
 _MisdreavusDexEntry::
@@ -374,7 +374,7 @@ _MisdreavusDexEntry::
 
 	page "and wailing to"
 	next "startle people at"
-	next "night."
+	next "night"
 	dex
 	
 _UnownDexEntry::
@@ -384,7 +384,7 @@ _UnownDexEntry::
 
 	page "It is said that"
 	next "the two are"
-	next "somehow related."
+	next "somehow related"
 	dex
 
 _WobbuffetDexEntry::
@@ -394,7 +394,7 @@ _WobbuffetDexEntry::
 	next "it inflates its"
 
 	page "body to pump up"
-	next "its counterstrike."
+	next "its counterstrike"
 	dex
 	
 _GirafarigDexEntry::
@@ -404,7 +404,7 @@ _GirafarigDexEntry::
 
 	page "bite on its own"
 	next "if it notices an"
-	next "alluring smell."
+	next "alluring smell"
 	dex
 
 _PinecoDexEntry::
@@ -414,7 +414,7 @@ _PinecoDexEntry::
 
 	page "to its body. The"
 	next "fluid hardens when"
-	next "it touches air."
+	next "it touches air"
 	dex
 
 _ForretressDexEntry::
@@ -424,7 +424,7 @@ _ForretressDexEntry::
 
 	page "What lurks inside"
 	next "the armor is a"
-	next "total mystery."
+	next "total mystery"
 	dex
 
 _DunsparceDexEntry::
@@ -434,7 +434,7 @@ _DunsparceDexEntry::
 
 	page "reaches it and"
 	next "remains virtually"
-	next "motionless there."
+	next "motionless there"
 	dex
 
 _GligarDexEntry::
@@ -444,7 +444,7 @@ _GligarDexEntry::
 
 	page "it spreads its"
 	next "wings and glides"
-	next "down to attack."
+	next "down to attack"
 	dex
 
 _SteelixDexEntry::
@@ -454,7 +454,7 @@ _SteelixDexEntry::
 
 	page "its composition"
 	next "changes to become"
-	next "diamond-like."
+	next "diamond-like"
 	dex
 	
 _SnubbullDexEntry::
@@ -464,7 +464,7 @@ _SnubbullDexEntry::
 
 	page "to frolic with it"
 	next "because of its"
-	next "affectionate ways."
+	next "affectionate ways"
 	dex
 
 _GranbullDexEntry::
@@ -474,7 +474,7 @@ _GranbullDexEntry::
 
 	page "its mouth wide to"
 	next "reveal its big"
-	next "fangs."
+	next "fangs"
 	dex
 
 _QwilfishDexEntry::	  
@@ -484,7 +484,7 @@ _QwilfishDexEntry::
 
 	page "much water as it"
 	next "can to match the"
-	next "opponent's size."
+	next "opponent's size"
 	dex
 
 _ScizorDexEntry::
@@ -494,7 +494,7 @@ _ScizorDexEntry::
 
 	page "crush any hard"
 	next "object it gets a"
-	next "hold of into bits."
+	next "hold of into bits"
 	dex
 	
 _ShuckleDexEntry::
@@ -504,7 +504,7 @@ _ShuckleDexEntry::
 
 	page "it hides beneath"
 	next "rocks and remains"
-	next "completely still."
+	next "completely still"
 	dex
 
 _HeracrossDexEntry::
@@ -514,7 +514,7 @@ _HeracrossDexEntry::
 	
 	page "chases off the"
 	next "intruder with its"
-	next "horn."
+	next "horn"
 	dex
 	
 _SneaselDexEntry::
@@ -524,7 +524,7 @@ _SneaselDexEntry::
 
 	page "suddenly extends"
 	next "the claws and"
-	next "startles its foe."
+	next "startles its foe"
 	dex
 
 _TeddiursaDexEntry::
@@ -534,7 +534,7 @@ _TeddiursaDexEntry::
 
 	page "because of all"
 	next "the honey it"
-	next "has absorbed."
+	next "has absorbed"
 	dex
 
 _UrsaringDexEntry::
@@ -544,7 +544,7 @@ _UrsaringDexEntry::
 
 	page "at climbing trees."
 	next "It eats and sleeps"
-	next "in the treetops."
+	next "in the treetops"
 	dex
 
 _SlugmaDexEntry::
@@ -554,7 +554,7 @@ _SlugmaDexEntry::
     
     page "hotter than usual."
     next "If it cools off,"
-    next "its skin hardens."
+    next "its skin hardens"
     dex
     
 _MagcargoDexEntry::
@@ -564,7 +564,7 @@ _MagcargoDexEntry::
     
     page "Flames will"
     next "occasionally burst"
-    next "from its shell."
+    next "from its shell"
     dex
     
 _SwinubDexEntry::
@@ -574,7 +574,7 @@ _SwinubDexEntry::
     
     page "food. It sometimes"
     next "discovers hot"
-    next "springs."
+    next "springs"
     dex
 
 _PiloswineDexEntry::
@@ -584,7 +584,7 @@ _PiloswineDexEntry::
     
     page "prevent it from"
     next "slipping, even on"
-    next "icy ground."
+    next "icy ground"
     dex
 
 _CorsolaDexEntry::
@@ -594,7 +594,7 @@ _CorsolaDexEntry::
     
     page "clean water. They"
     next "cannot survive in"
-    next "polluted water."
+    next "polluted water"
     dex
 
 _RemoraidDexEntry::
@@ -603,7 +603,7 @@ _RemoraidDexEntry::
     next "its mouth to"
     
     page "shoot down"
-    next "flying prey."
+    next "flying prey"
     dex
 
 _OctilleryDexEntry::
@@ -613,7 +613,7 @@ _OctilleryDexEntry::
     
     page "then smashes them"
     next "with its rock"
-    next "-hard head."
+    next "-hard head"
     dex
 
 _DelibirdDexEntry::
@@ -623,7 +623,7 @@ _DelibirdDexEntry::
     
     page "all day carrying"
     next "food to its"
-    next "awaiting chicks."
+    next "awaiting chicks"
     dex
 
 _MantineDexEntry::
@@ -633,7 +633,7 @@ _MantineDexEntry::
     
     page "into its mouth."
     next "Its whole body"
-    next "is very coarse."
+    next "is very coarse"
     dex
 
 _SkarmoryDexEntry::
@@ -643,7 +643,7 @@ _SkarmoryDexEntry::
 
 	page "hollow and light,"
 	next "allowing it to fly"
-	next "freely in the sky."
+	next "freely in the sky"
 	dex
 
 _HoundourDexEntry::
@@ -653,7 +653,7 @@ _HoundourDexEntry::
 	
 	page "area to announce"
 	next "that this is its"
-	next "territory."
+	next "territory"
 	dex
 	
 _HoundoomDexEntry::
@@ -663,7 +663,7 @@ _HoundoomDexEntry::
 	
 	page "mouth, the pain"
 	next "will never go"
-	next "away."
+	next "away"
 	dex
 	
 _KingdraDexEntry::
@@ -673,7 +673,7 @@ _KingdraDexEntry::
 	
 	page "It can create"
 	next "WHIRLPOOLS by"
-	next "yawning."
+	next "yawning"
 	dex
 	
 _PhanpyDexEntry::
@@ -683,7 +683,7 @@ _PhanpyDexEntry::
 	
 	page "because it is so"
 	next "strong, that can"
-	next "be dangerous."
+	next "be dangerous"
 	dex
 
 _DonphanDexEntry::
@@ -693,7 +693,7 @@ _DonphanDexEntry::
 	
 	page "is strong enough"
 	next "to knock down a"
-	next "house."
+	next "house"
 	dex
 
 _Porygon2DexEntry::
@@ -703,7 +703,7 @@ _Porygon2DexEntry::
 
 	page "It may have some"
 	next "unprogrammed"
-	next "reactions."
+	next "reactions"
 	dex
 	
 _StantlerDexEntry::
@@ -713,7 +713,7 @@ _StantlerDexEntry::
 
 	page "lose control of"
 	next "their senses and"
-	next "be unable to stand."
+	next "be unable to stand"
 	dex
 
 _SmeargleDexEntry::
@@ -723,7 +723,7 @@ _SmeargleDexEntry::
 
 	page "let its comrades"
 	next "plant footprints"
-	next "on its back."
+	next "on its back"
 	dex
 
 _TyrogueDexEntry::
@@ -733,7 +733,7 @@ _TyrogueDexEntry::
     
     page "anyone. It has a"
     next "very strong com-"
-    next "petitive spirit."
+    next "petitive spirit"
     dex
 
 
@@ -744,7 +744,7 @@ _HitmontopDexEntry::
     
     page "speed, it may bore"
     next "its way into the"
-    next "ground."
+    next "ground"
     dex
         
 _SmoochumDexEntry::
@@ -754,7 +754,7 @@ _SmoochumDexEntry::
     
     page "It uses them to"
     next "try to identify"
-    next "unknown objects."
+    next "unknown objects"
     dex
     
 _ElekidDexEntry::
@@ -764,7 +764,7 @@ _ElekidDexEntry::
     
     page "flickers bluish-"
     next "white when it is"
-    next "charging energy."
+    next "charging energy"
     dex
     
 _MagbyDexEntry::
@@ -774,7 +774,7 @@ _MagbyDexEntry::
     
     page "over 1100 degrees,"
     next "so don't under-"
-    next "estimate it."
+    next "estimate it"
     dex
     
 _MiltankDexEntry::
@@ -784,7 +784,7 @@ _MiltankDexEntry::
 
 	page "ultimate beverage"
 	next "for the sick or"
-	next "weary."
+	next "weary"
 	dex
 
 _BlisseyDexEntry::
@@ -794,7 +794,7 @@ _BlisseyDexEntry::
 
 	page "#MON, it will"
 	next "nurse the sufferer"
-	next "back to health."
+	next "back to health"
 	dex
 	
 _RaikouDexEntry::
@@ -804,7 +804,7 @@ _RaikouDexEntry::
 
 	page "will. They say"
 	next "that it descended"
-	next "with lightning."
+	next "with lightning"
 	dex
 
 _EnteiDexEntry::
@@ -814,7 +814,7 @@ _EnteiDexEntry::
 
 	page "one is born every"
 	next "time a new"
-	next "volcano appears."
+	next "volcano appears"
 	dex
 
 _SuicuneDexEntry::
@@ -823,7 +823,7 @@ _SuicuneDexEntry::
 	next "world, always in"
 
 	page "search of a pure"
-	next "reservoir."
+	next "reservoir"
 	dex
 
 _LarvitarDexEntry::
@@ -833,7 +833,7 @@ _LarvitarDexEntry::
 
 	page "mountain, it"
 	next "will fall asleep"
-	next "so it can grow."
+	next "so it can grow"
 	dex
 
 _PupitarDexEntry::
@@ -843,7 +843,7 @@ _PupitarDexEntry::
 
 	page "already has arms"
 	next "and legs under"
-	next "its solid shell."
+	next "its solid shell"
 	dex
 
 _TyranitarDexEntry::
@@ -853,7 +853,7 @@ _TyranitarDexEntry::
 
 	page "buries rivers."
 	next "Maps must be"
-	next "redrawn afterward."
+	next "redrawn afterward"
 	dex
 
 _LugiaDexEntry::
@@ -863,7 +863,7 @@ _LugiaDexEntry::
 
 	page "rumored to have"
 	next "been seen on the"
-	next "night of a storm."
+	next "night of a storm"
 	dex
 	
 _Ho_OhDexEntry::
@@ -873,7 +873,7 @@ _Ho_OhDexEntry::
 
 	page "anyone seeing it"
 	next "is promised"
-	next "eternal happiness."
+	next "eternal happiness"
 	dex
 
 _CelebiDexEntry::
@@ -883,7 +883,7 @@ _CelebiDexEntry::
 
 	page "appears wherever"
 	next "beautiful"
-	next "forests exist."
+	next "forests exist"
 	dex
 
 	

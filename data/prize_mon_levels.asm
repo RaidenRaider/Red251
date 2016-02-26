@@ -1,12 +1,8 @@
 PrizeMonLevelDictionary: ; 5298a (14:698a)
-	db ABRA,5
-	db CLEFAIRY,5
 	db EEVEE,5
-
-	db HERACROSS,15
 	db DRATINI,15
 	db PORYGON,15
 
-	db RAIKOU,70
-	db ENTEI,70
-	db SUICUNE,70
+	db RAIKOU,50
+	db ENTEI,50
+	db SUICUNE,50

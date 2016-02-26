@@ -430,29 +430,29 @@ GameCornerHiddenObjects: ; 46ca6 (11:6ca6)
 	dbw BANK(StartSlotMachine), StartSlotMachine
 	db $0f,$01,$d0
 	dbw BANK(StartSlotMachine), StartSlotMachine
-	db $08,$00,COIN+100
+	db $08,$00,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $10,$01,COIN+100
+	db $10,$01,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0b,$03,COIN+100
+	db $0b,$03,COIN+20
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0e,$03,COIN+100
+	db $0e,$03,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0c,$04,COIN+100
+	db $0c,$04,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0c,$09,COIN+100
+	db $0c,$09,COIN+20
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0f,$09,COIN+100
+	db $0f,$09,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0e,$10,COIN+100
+	db $0e,$10,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $10,$0a,COIN+100
+	db $10,$0a,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $07,$0b,COIN+100
+	db $07,$0b,COIN+40
 	dbw BANK(HiddenCoins),HiddenCoins
 	db $08,$0f,COIN+100
 	dbw BANK(HiddenCoins),HiddenCoins
-	db $0f,$0c,COIN+100
+	db $0f,$0c,COIN+10
 	dbw BANK(HiddenCoins),HiddenCoins
 	db $FF
 CeladonHotelHiddenObjects: ; 46dc7 (11:6dc7)

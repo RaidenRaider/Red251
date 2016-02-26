@@ -1535,7 +1535,7 @@ _MeganiumDexEntry::
 
 	page "a substance that"
 	next "calms aggressive"
-	next "feelings."
+	next "feelings"
 	dex
 
 _CyndaquilDexEntry::
@@ -1545,7 +1545,7 @@ _CyndaquilDexEntry::
 
 	page "If attacked, it"
 	next "flares up its back"
-	next "for protection."
+	next "for protection"
 	dex
 
 _QuilavaDexEntry::
@@ -1555,7 +1555,7 @@ _QuilavaDexEntry::
 
 	page "means that it will"
 	next "attack with the"
-	next "fire on its back."
+	next "fire on its back"
 	dex
 
 _TyphlosionDexEntry::
@@ -1565,7 +1565,7 @@ _TyphlosionDexEntry::
 
 	page "touches it will"
 	next "instantly go up"
-	next "in flames."
+	next "in flames"
 	dex
 
 _TotodileDexEntry::
@@ -1575,7 +1575,7 @@ _TotodileDexEntry::
 
 	page "crushing anything."
 	next "Even its trainer"
-	next "must be careful."
+	next "must be careful"
 	dex
 
 _CroconawDexEntry::
@@ -1585,7 +1585,7 @@ _CroconawDexEntry::
 
 	page "There are always"
 	next "48 fangs lining"
-	next "its mouth."
+	next "its mouth"
 	dex
 
 _FeraligatrDexEntry::
@@ -1595,7 +1595,7 @@ _FeraligatrDexEntry::
 
 	page "shakes its head"
 	next "and savagely tears"
-	next "its victim up."
+	next "its victim up"
 	dex
 
 _SentretDexEntry::
@@ -1605,7 +1605,7 @@ _SentretDexEntry::
 
 	page "its tail to get"
 	next "a better view of"
-	next "its surroundings."
+	next "its surroundings"
 	dex
 
 _FurretDexEntry::
@@ -1615,6 +1615,6 @@ _FurretDexEntry::
 
 	page "nest is impossible"
 	next "for other #MON"
-	next "to enter."
+	next "to enter"
 	dex
 

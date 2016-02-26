@@ -16,7 +16,7 @@ CeladonMart2Text1:: ; 2476 (0:2476)
 ; Celadon Dept. Store 2F (2)
 CeladonMart2Text2:: ; 2482 (0:2482)
 	db MART_LIST
-	db 12
+	db 9
 	db TM_32
 	db TM_33
 	db TM_02
@@ -26,7 +26,4 @@ CeladonMart2Text2:: ; 2482 (0:2482)
 	db TM_05
 	db TM_09
 	db TM_17
-	db TM_37
-	db TM_24
-	db TM_13
 	db $FF

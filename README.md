@@ -2,7 +2,7 @@
 
 This is based on the [**Pokémon Red++ Disassembly**][pokered++]
 
-Red251 serves as an updated side hack version of Pokémon Red++, with permission from Mateo.
+Red251 serves as an updated version of Pokémon Red, and as a side hack of Pokémon Red++, with permission from Mateo.
 
 It fixes a lot of bugs leftover from original Red and Blue, as well as adding new features.
 It builds two versions, a "Normal" version and a "Hard" version. The only difference is the level curve.
@@ -27,6 +27,7 @@ It is advisable to check the main Pokered repository as well for more info.
 
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
 * Disassembly of [**Pokémon Red++**][pokered++]
+* Disassembly of [**Pokémon Red**][pokered]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
 [pokered]: http://github.com/pret/pokered
