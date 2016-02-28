@@ -9,7 +9,7 @@ db WATER ; species type 1
 db GROUND ; species type 2
 db 90 ; catch rate
 db 137 ; base exp yield
-INCBIN "pic/bmon/quagsire.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/quagsire.pic",0,1 ; 55, sprite dimensions
 dw QuagsirePicFront
 dw QuagsirePicBack
 ; attacks known at lvl 0

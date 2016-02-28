@@ -9,7 +9,7 @@ db NORMAL ; species type 1
 db PSYCHIC ; species type 2
 db 60 ; catch rate
 db 149 ; base exp yield
-INCBIN "pic/bmon/girafarig.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/girafarig.pic",0,1 ; 55, sprite dimensions
 dw GirafarigPicFront
 dw GirafarigPicBack
 ; attacks known at lvl 0

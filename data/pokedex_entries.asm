@@ -2007,7 +2007,7 @@ Ho_OhDexEntry:
 	db "@"
 
 CelebiDexEntry:
-	db "TIME TRAVEL@"
+	db "TIMETRAVEL@"
 	db 2,0
 	dw 110
 	TX_FAR _CelebiDexEntry

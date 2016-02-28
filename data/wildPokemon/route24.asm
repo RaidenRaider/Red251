@@ -23,5 +23,5 @@ Route24Mons:
 	db 13,STARYU
 	db 17,SEAKING
 	db 24,STARMIE
-	db 26,KINGDRA
+	db 26,MANTINE
 
