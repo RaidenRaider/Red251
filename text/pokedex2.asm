@@ -141,19 +141,19 @@ _TogeticDexEntry::
 _NatuDexEntry::
 	text "Because its wings"
 	next "aren't yet fully"
-	next "grown, it has to hop"
+	next "grown, it has to"
 
-	page "to get around. It"
-	next "is always staring"
+	page "hop to get around."
+	next "It always stares"
 	next "at something"
 	dex
 	
 _XatuDexEntry::
 	text "They say that it"
 	next "stays still and"
-	next "quiet because it is"
+	next "quiet because it"
 
-	page "seeing both the"
+	page "is seeing both the"
 	next "past and future"
 	next "at the same time"
 	dex
@@ -259,7 +259,7 @@ _SkiploomDexEntry::
 
 _JumpluffDexEntry::
 	text "Once it catches"
-	next "the wind, it deftly"
+	next "the wind, it"
 	next "controls its"
 	
 	page "cotton-puff spores"
@@ -378,23 +378,24 @@ _MisdreavusDexEntry::
 	dex
 	
 _UnownDexEntry::
-	text "Their shapes look"
-	next "like hieroglyphs on"
-	next "ancient tablets."
+	text "Its flat, thin"
+	next "body is always"
+	next "stuck on walls."
 
-	page "It is said that"
-	next "the two are"
-	next "somehow related"
+	page "Its shape appears"
+	next "to have some"
+	next "meaning"
 	dex
 
 _WobbuffetDexEntry::
 		  
 	text "It hates light and"
-	next "shock. If attacked,"
-	next "it inflates its"
+	next "shock. If"
+	next "attacked, it"
 
-	page "body to pump up"
-	next "its counterstrike"
+	page "inflates its body"
+	next "to pump up its"
+	next "counterstrike"
 	dex
 	
 _GirafarigDexEntry::
@@ -707,13 +708,13 @@ _Porygon2DexEntry::
 	dex
 	
 _StantlerDexEntry::
-	text "Those who stare"
-	next "at its antlers"
-	next "will gradually"
+	text "The round balls"
+	next "found on the"
+	next "fallen antlers"
 
-	page "lose control of"
-	next "their senses and"
-	next "be unable to stand"
+	page "can be ground into"
+	next "a powder that"
+	next "aids in sleeping"
 	dex
 
 _SmeargleDexEntry::
@@ -799,30 +800,31 @@ _BlisseyDexEntry::
 	
 _RaikouDexEntry::
 	text "The rain clouds it"
-	next "carries let it fire"
-	next "thunderbolts at"
+	next "carries let it"
+	next "fire thunderbolts"
 
-	page "will. They say"
-	next "that it descended"
+	page "at will. They"
+	next "say it descended"
 	next "with lightning"
 	dex
 
 _EnteiDexEntry::
-	text "A #MON that races"
-	next "across the land."
-	next "It is said that"
+	text "A #MON that"
+	next "races across the"
+	next "land. It is said"
 
-	page "one is born every"
-	next "time a new"
+	page "that one is born"
+	next "every time a new"
 	next "volcano appears"
 	dex
 
 _SuicuneDexEntry::
-	text "This divine #MON"
-	next "blows around the"
-	next "world, always in"
+	text "This divine"
+	next "#MON blows"
+	next "around the"
 
-	page "search of a pure"
+	page "world, always in"
+	next "search of a pure"
 	next "reservoir"
 	dex
 

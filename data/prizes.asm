@@ -24,9 +24,15 @@ PrizeMenuMon1Cost: ; 5285d (14:685d)
 	db "@"
 
 PrizeMenuMon2Entries: ; 52864 (14:6864)
+IF DEF(_GREEN)
+	db ZAPDOS
+	db MOLTRES
+	db ARTICUNO
+ELSE
 	db RAIKOU
 	db ENTEI
 	db SUICUNE
+ENDC
 	db "@"
 
 PrizeMenuMon2Cost: ; 52868 (14:6868)
@@ -36,13 +42,13 @@ PrizeMenuMon2Cost: ; 52868 (14:6868)
 	db "@"
 
 PrizeMenuTMsEntries: ; 5286f (14:686f)
-	db TM_37
-	db TM_24
-	db TM_13
+	db MASTER_BALL
+	db RARE_CANDY
+	db SWEG_BERRY
 	db "@"
 
 PrizeMenuTMsCost: ; 52873 (14:6873)
-	coins 3300
-	coins 3300
-	coins 3300
+	coins 9999
+	coins 9999
+	coins 9999
 	db "@"

@@ -1,0 +1,16 @@
+DungeonMons2:
+	db $0F
+	db 57,FURRET
+	db 62,CROBAT
+	db 58,FLAAFFY
+	db 61,PUPITAR
+	db 65,DITTO
+	db 64,SNEASEL
+	db 59,LEDIAN
+	db 62,FORRETRESS
+	db 66,URSARING
+	db 69,SUDOWOODO
+
+; Water Mons
+	db $00
+

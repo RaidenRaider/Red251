@@ -91,27 +91,11 @@ Func_372ac: ; 372ac (d:72ac)
 ; Animate the TitleBall if a starter just got scrolled out.
 ; Also animate it if a legendary just got scrolled out.
 	ld a, [wWhichTrade] ; wWhichTrade
-	cp BULBASAUR
+	cp STARTER1
 	jr z, .ok
-	cp CHARMANDER
+	cp STARTER2
 	jr z, .ok
-	cp SQUIRTLE
-	jr z, .ok
-	cp PIKACHU
-	jr z, .ok
-	cp EEVEE
-	jr z, .ok
-	cp ARTICUNO
-	jr z, .ok
-	cp ZAPDOS
-	jr z, .ok
-	cp MOLTRES
-	jr z, .ok
-	cp LUGIA
-	jr z, .ok
-	cp MEWTWO
-	jr z, .ok
-	cp MEW
+	cp STARTER3
 	ret nz
 .ok
 	ld e, 1 ; animate titleball

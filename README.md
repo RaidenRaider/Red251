@@ -5,7 +5,7 @@ This is based on the [**Pokémon Red++ Disassembly**][pokered++]
 Red251 serves as an updated version of Pokémon Red, and as a side hack of Pokémon Red++, with permission from Mateo.
 
 It fixes a lot of bugs leftover from original Red and Blue, as well as adding new features.
-It builds two versions, a "Normal" version and a "Hard" version. The only difference is the level curve.
+It builds three versions, a "Normal" version, a "Hard" version and an "Extreme" version. The only difference is the level curve.
 
 For a list of features, check out [**FEATURES.md**](FEATURES.md).
 

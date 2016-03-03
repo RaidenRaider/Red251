@@ -169,12 +169,20 @@ ReadTrainer: ; 39c53 (e:5c53)
 	ret
 
 
-IF DEF(_BLUE) ; Difficult rom
-    INCLUDE "data/trainer_moves_hard.asm"
-
-    INCLUDE "data/trainer_parties_hard.asm"
-ELSE ; Normal rom
+IF DEF(_RED) ; Normal rom
     INCLUDE "data/trainer_moves.asm"
 
     INCLUDE "data/trainer_parties.asm"
+ENDC
+
+IF DEF(_BLUE) ; Hard rom
+    INCLUDE "data/trainer_moves_hard.asm"
+
+    INCLUDE "data/trainer_parties_hard.asm"
+ENDC
+
+IF DEF(_GREEN) ; Extreme rom
+    INCLUDE "data/trainer_moves_extreme.asm"
+
+    INCLUDE "data/trainer_parties_extreme.asm"
 ENDC

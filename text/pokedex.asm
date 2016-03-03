@@ -1540,7 +1540,7 @@ _MeganiumDexEntry::
 
 _CyndaquilDexEntry::
 	text "It is timid, and"
-	next "always curls itself"
+	next "curls itself"
 	next "up in a ball."
 
 	page "If attacked, it"
@@ -1579,13 +1579,13 @@ _TotodileDexEntry::
 	dex
 
 _CroconawDexEntry::
-	text "If it loses a fang,"
-	next "a new one grows"
-	next "back in its place."
+	text "If it loses a"
+	next "fang, a new one"
+	next "grows back in its"
 
-	page "There are always"
-	next "48 fangs lining"
-	next "its mouth"
+	page "place. There are"
+	next "always 48 fangs"
+	next "lining its mouth"
 	dex
 
 _FeraligatrDexEntry::

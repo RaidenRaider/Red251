@@ -1,0 +1,17 @@
+Route15Mons:
+; Grass Mons
+	db $0F
+	db 31,ODDISH
+	db 31,SMEARGLE
+	db 29,FURRET
+	db 37,MILTANK
+	db 33,STANTLER
+	db 33,BELLSPROUT
+	db 35,GLOOM
+	db 35,WEEPINBELL
+	db 32,VENONAT
+	db 35,VENOMOTH
+
+; Water Mons
+	db $00
+

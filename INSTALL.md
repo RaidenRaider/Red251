@@ -11,7 +11,7 @@
 	git clone --recursive git://github.com/RaidenRaider/Red251.git
 	cd Red251
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **pokered.gbc**, **pokeblue.gbc** and **pokegreen.gbc**:
 
 	make
 
@@ -19,6 +19,7 @@ To build them individually:
 
 	make red
 	make blue
+	make green
 
 
 # Mac

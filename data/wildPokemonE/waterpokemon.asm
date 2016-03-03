@@ -1,0 +1,17 @@
+WaterMons:
+; Grass Mons
+	db $00
+
+; Water Mons
+	db $05
+	db 25,WOOPER
+	db 25,MARILL
+	db 30,MARILL
+	db 25,WOOPER
+	db 25,REMORAID
+	db 30,REMORAID
+	db 35,WOBBUFFET
+	db 45,WOBBUFFET
+	db 50,WOBBUFFET
+	db 55,TENTACRUEL
+

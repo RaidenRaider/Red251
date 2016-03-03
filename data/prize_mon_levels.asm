@@ -3,6 +3,12 @@ PrizeMonLevelDictionary: ; 5298a (14:698a)
 	db DRATINI,15
 	db PORYGON,15
 
+IF DEF(_GREEN)
+	db ZAPDOS,50
+	db MOLTRES,50
+	db ARTICUNO,50
+ELSE
 	db RAIKOU,50
 	db ENTEI,50
 	db SUICUNE,50
+ENDC

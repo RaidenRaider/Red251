@@ -1538,7 +1538,7 @@ MarillDexEntry:
 	db "@"
 
 AzumarillDexEntry:
-	db "AQUD RABBIT@"
+	db "AQUARABBIT@"
 	db 2,7
 	dw 628
 	TX_FAR _AzumarillDexEntry
@@ -1699,7 +1699,7 @@ DunsparceDexEntry:
 	db "@"
 
 GligarDexEntry:
-	db "FLYSCORPION@"
+	db "FLYING BAT@"
 	db 3,7
 	dw 1429
 	TX_FAR _GligarDexEntry
@@ -1720,7 +1720,7 @@ SnubbullDexEntry:
 	db "@"
 
 GranbullDexEntry:
-	db "FAIRY"
+	db "FAIRY@"
 	db 4,7
 	dw 1074
 	TX_FAR _GranbullDexEntry
@@ -1762,7 +1762,7 @@ SneaselDexEntry:
 	db "@"
 	
 TeddiursaDexEntry:
-	db "LITTLE BEAR@"
+	db "LITTLEBEAR@"
 	db 2,0
 	dw 194
 	TX_FAR _TeddiursaDexEntry

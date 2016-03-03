@@ -1,0 +1,17 @@
+Route14Mons:
+; Grass Mons
+	db $0F
+	db 31,SUNKERN
+	db 31,HOPPIP
+	db 29,VENONAT
+	db 35,PIDGEOTTO
+	db 33,ODDISH
+	db 33,BELLSPROUT
+	db 35,GLOOM
+	db 35,WEEPINBELL
+	db 32,MILTANK
+	db 35,VENOMOTH
+
+; Water Mons
+	db $00
+

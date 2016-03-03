@@ -1,7 +1,7 @@
 ZoneMons2:
 ; Grass Mons
 	db $1E
-	db 36,NIDORAN_M
+	db 14,NIDORAN_M
 	db 14,NIDORAN_F
 	db 20,EXEGGCUTE
 	db 25,RHYHORN

@@ -1,0 +1,28 @@
+Route6Mons:
+; Grass Mons
+	db $0F
+	db 18,ODDISH
+	db 18,BELLSPROUT
+	db 20,HOOTHOOT
+	db 15,PIDGEY
+	db 17,SNUBBULL
+	db 19,MEOWTH
+	db 21,MEOWTH
+	db 17,AIPOM
+	db 19,MANKEY
+	db 21,MANKEY
+
+; Water Mons
+	db $03
+	db 20,PSYDUCK
+	db 20,PSYDUCK
+	db 20,PSYDUCK
+	db 20,PSYDUCK
+	db 20,PSYDUCK
+	db 20,PSYDUCK
+	db 20,SLOWPOKE
+	db 20,SLOWPOKE
+	db 20,GOLDUCK
+	db 25,GOLDUCK
+
+

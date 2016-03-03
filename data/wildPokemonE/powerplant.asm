@@ -1,0 +1,17 @@
+PowerPlantMons:
+; Grass Mons
+	db $0A
+	db 36,VOLTORB
+	db 36,MAGNEMITE
+	db 35,CHINCHOU
+	db 36,MAREEP
+	db 39,PIKACHU
+	db 38,RAICHU
+	db 40,MAREEP
+	db 47,MAGNETON
+	db 50,ELECTRODE
+	db 51,ELECTABUZZ
+	db 51,AMPHAROS
+
+; Water Mons
+	db $00

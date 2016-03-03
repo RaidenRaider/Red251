@@ -56,8 +56,18 @@ LoadTitlescreenGraphics: ; 42dd (1:42dd)
 	ld a, BANK(PokemonLogoGraphics)
 	call FarCopyData2          ; second chunk
 	ld hl, Version_GFX ; $402f
+IF DEF(_RED)
 	ld de,vChars2 + $600
-	ld bc,$50
+	ld bc,$60
+ENDC
+IF DEF(_BLUE)
+	ld de,vChars2 + $600
+	ld bc,$60
+ENDC
+IF DEF(_GREEN)
+	ld de,vChars2 + $600
+	ld bc,$60
+ENDC
 	ld a, BANK(Version_GFX)
 	call FarCopyDataDouble
 	call Func_4519
@@ -107,7 +117,15 @@ LoadTitlescreenGraphics: ; 42dd (1:42dd)
 	call SaveScreenTilesToBuffer2
 	call LoadScreenTilesFromBuffer2
 	call EnableLCD
-	ld a,CHARIZARD ; which Pokemon to show first on the title screen
+IF DEF(_RED)
+	ld a,CHARMANDER ; which Pokemon to show first on the title screen
+ENDC
+IF DEF(_GREEN)
+	ld a,BULBASAUR ; which Pokemon to show first on the title screen
+ENDC
+IF DEF(_BLUE)
+	ld a,SQUIRTLE ; which Pokemon to show first on the title screen
+ENDC
 	ld [wWhichTrade], a ; wWhichTrade
 	call Func_4524
 	ld a, $9b
@@ -357,20 +375,26 @@ CopyrightTextString: ; 4556 (1:4556)
 	next $60,$61,$62,$61,$63,$61,$64,$7F,$73,$74,$75,$76,$77,$78,$79,$7A,$7B ; ©'95.'96.'98 GAME FREAK inc.
 	db   "@"
 
-; prints version text (red, blue)
+INCLUDE "data/title_mons.asm"
+
+; prints version text (red, green, blue)
 PrintGameVersionOnTitleScreen: ; 4598 (1:4598)
-IF DEF(_FOREVER)
-	hlCoord 8, 8
+IF DEF(_GREEN)
+	coord hl, 5, 8
 ELSE
-	hlCoord 7, 8
+	coord hl, 5, 8
 ENDC
 	ld de, VersionOnTitleScreenText
 	jp PlaceString
 
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText: ; 45a1 (1:45a1)
-IF DEF(_FOREVER)
-	db $60,$61,$62,$63,$64,"@" ; "Forever"
-ELSE
-	db $60,$61,$62,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
+IF DEF(_RED)
+	db $60,$61,$62,$63,$64,$7F,$67,$68,$69,$6A,$6B,"@" ; "Red Version"
+ENDC
+IF DEF(_GREEN)
+	db $60,$61,$62,$63,$64,$65,$7F,$67,$68,$69,$6A,$6B,"@" ; "Green Version"
+ENDC
+IF DEF(_BLUE)
+	db $60,$61,$62,$63,$64,$65,$67,$68,$69,$6A,$6B,"@" ; "Blue Version"
 ENDC

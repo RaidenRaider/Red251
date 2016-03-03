@@ -1,0 +1,27 @@
+Route10Mons:
+; Grass Mons
+	db $0F
+	db 21,MAGNEMITE
+	db 23,RATTATA
+	db 23,FLAAFFY
+	db 25,SNUBBULL
+	db 22,NIDORAN_M
+	db 22,NIDORAN_F
+	db 27,SKARMORY
+	db 25,MURKROW
+	db 21,DUNSPARCE
+	db 23,MACHOP
+
+; Water Mons
+	db $0F
+   	db 21,GOLDEEN
+	db 23,CHINCHOU
+	db 23,CHINCHOU
+	db 23,POLIWAG
+	db 22,SLOWPOKE
+	db 22,SLOWPOKE
+	db 30,SLOWBRO
+	db 30,SLOWBRO
+	db 35,LANTURN
+	db 35,LANTURN
+

@@ -17,7 +17,11 @@ PowerPlantObject: ; 0x1e3bf (size=135)
 	db SPRITE_BALL, $1c + 4, $1a + 4, $ff, $ff, TRAINER | $6, VOLTORB, 40 | OW_POKEMON
 	db SPRITE_BALL, $e + 4, $15 + 4, $ff, $ff, TRAINER | $7, ELECTRODE, 43 | OW_POKEMON
 	db SPRITE_BALL, $20 + 4, $25 + 4, $ff, $ff, TRAINER | $8, VOLTORB, 40 | OW_POKEMON
+IF DEF(_GREEN)
+	db SPRITE_SLOWBRO, $9 + 4, $4 + 4, $ff, $d1, TRAINER | $9, RAIKOU, 50 | OW_POKEMON
+ELSE
 	db SPRITE_BIRD, $9 + 4, $4 + 4, $ff, $d1, TRAINER | $9, ZAPDOS, 50 | OW_POKEMON
+ENDC
 	db SPRITE_BALL, $19 + 4, $7 + 4, $ff, $ff, ITEM | $a, CARBOS
 	db SPRITE_BALL, $3 + 4, $1c + 4, $ff, $ff, ITEM | $b, HP_UP
 	db SPRITE_BALL, $3 + 4, $22 + 4, $ff, $ff, ITEM | $c, RARE_CANDY
