@@ -1,16 +1,16 @@
 Route3Mons:
 ; Grass Mons
 	db $14
-	db 6,YANMA
-	db 5,HOOTHOOT
-	db 7,NATU
-	db 6,HOPPIP
-	db 7,SANDSHREW
-	db 8,PIDGEY
-	db 8,SPEAROW
-	db 3,SUNKERN
-	db 5,JIGGLYPUFF
+	db 8,YANMA
+	db 7,HOOTHOOT
+	db 9,NATU
+	db 8,HOPPIP
+	db 9,SANDSHREW
+	db 10,PIDGEY
+	db 10,SPEAROW
+	db 5,SUNKERN
 	db 7,JIGGLYPUFF
+	db 9,JIGGLYPUFF
 
 ; Water Mons
 	db $00
