@@ -1,16 +1,16 @@
 Route2Mons:
 ; Grass Mons
 	db $19
-	db 3,SPINARAK
-	db 3,LEDYBA
-	db 4,PIDGEY
-	db 4,RATTATA
-	db 5,PIDGEY
-	db 3,WEEDLE
-	db 3,CATERPIE
-	db 5,RATTATA
-	db 5,WEEDLE
-	db 5,CATERPIE
+	db 10,SPINARAK
+	db 10,LEDYBA
+	db 11,PIDGEY
+	db 11,RATTATA
+	db 12,PIDGEY
+	db 10,WEEDLE
+	db 10,CATERPIE
+	db 12,RATTATA
+	db 12,WEEDLE
+	db 12,CATERPIE
 
 ; Water Mons
 	db $00
