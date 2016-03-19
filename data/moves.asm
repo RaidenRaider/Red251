@@ -181,7 +181,7 @@ endm
 	move CUT,          DEFENSE_DOWN_SIDE_EFFECT,   100, STEEL,     75, 15 ; Iron Tail
 	move STRENGTH,     NO_ADDITIONAL_EFFECT,        90, STEEL,     90, 10 ; Meteor Mash
 	move BITE,         DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,     100, 15 ; Crunch
-	move PSYCHIC_M,    FLINCH_SIDE_EFFECT1, 	80, DARK,     100, 15 ; Dark Pulse
+	move PSYCHIC_M,    FLINCH_SIDE_EFFECT1, 		80, DARK,     100, 15 ; Dark Pulse
 	move QUICK_ATTACK, SWIFT_EFFECT,                60, DARK,     100, 20 ; Feint Attack
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, DARK,     100, 15 ; Night Slash
 	move SEISMIC_TOSS, SPECIAL_DOWN_SIDE_EFFECT,    95, FAIRY,    100, 15 ; Moonblast
@@ -207,7 +207,7 @@ endm
 	move SURF,         NO_ADDITIONAL_EFFECT,        90, WATER,    100, 10 ; Aqua Tail
 	move AURORA_BEAM,  HYPER_BEAM_EFFECT,          150, WATER,     90,  5 ; Hydro Cannon
 	move VINE_WHIP,    HYPER_BEAM_EFFECT,          150, GRASS,     90,  5 ; Frenzy Plant
-	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, DARK,     100,  5 ; Sucker Punch
+	move MEGA_PUNCH,   SUCKER_PUNCH_EFFECT,         80, DARK,     100,  5 ; Sucker Punch
 	move BARRAGE,      SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,    100, 15 ; Shadow Ball
 	move EMBER,        BURN_SIDE_EFFECT1,           60, FIRE,     100, 25 ; Flame Wheel
 	move FOCUS_ENERGY, HEAL_EFFECT,                  0, FAIRY,    100, 20 ; Moonlight
