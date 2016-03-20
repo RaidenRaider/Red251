@@ -1,6 +1,7 @@
 IslandMonsB1:
 ; Grass Mons
 	db $0A
+IF DEF(_RED)
 	db 30,STARYU
 	db 30,HORSEA
 	db 32,SHELLDER
@@ -11,6 +12,31 @@ IslandMonsB1:
 	db 28,SEEL
 	db 38,DEWGONG
 	db 37,AZUMARILL
+ENDC
+IF DEF(_BLUE)
+	db 35,STARYU
+	db 35,HORSEA
+	db 37,SHELLDER
+	db 37,HORSEA
+	db 33,SLOWPOKE
+	db 35,SEEL
+	db 35,SLOWPOKE
+	db 33,SEEL
+	db 43,DEWGONG
+	db 42,AZUMARILL
+ENDC
+IF DEF(_GREEN)
+	db 45,STARYU
+	db 45,HORSEA
+	db 47,SHELLDER
+	db 47,HORSEA
+	db 43,SLOWPOKE
+	db 45,SEEL
+	db 45,SLOWPOKE
+	db 43,SEEL
+	db 53,DEWGONG
+	db 52,AZUMARILL
+ENDC
 
 ; Water Mons
 	db $00

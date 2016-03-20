@@ -1,6 +1,7 @@
 Route17Mons:
 ; Grass Mons
 	db $19
+IF DEF(_RED)
 	db 26,SENTRET
 	db 27,NOCTOWL
 	db 27,LEDIAN
@@ -11,6 +12,31 @@ Route17Mons:
 	db 28,DODUO
 	db 32,PONYTA
 	db 29,DODRIO
+ENDC
+IF DEF(_BLUE)
+	db 31,SENTRET
+	db 32,NOCTOWL
+	db 32,LEDIAN
+	db 33,ARIADOS
+	db 33,SLUGMA
+	db 35,HOUNDOUR
+	db 34,FEAROW
+	db 33,DODUO
+	db 37,PONYTA
+	db 34,DODRIO
+ENDC
+IF DEF(_GREEN)
+	db 41,SENTRET
+	db 42,NOCTOWL
+	db 42,LEDIAN
+	db 43,ARIADOS
+	db 43,SLUGMA
+	db 45,HOUNDOUR
+	db 44,FEAROW
+	db 43,DODUO
+	db 47,PONYTA
+	db 44,DODRIO
+ENDC
 
 ; Water Mons
 	db $00

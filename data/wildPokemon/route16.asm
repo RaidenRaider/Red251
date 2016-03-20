@@ -1,6 +1,7 @@
 Route16Mons:
 ; Grass Mons
 	db $19
+IF DEF(_RED)
 	db 22,FEAROW
 	db 22,LARVITAR
 	db 23,RATTATA
@@ -11,6 +12,31 @@ Route16Mons:
 	db 24,MURKROW
 	db 25,RATICATE
 	db 26,EEVEE
+ENDC
+IF DEF(_BLUE)
+	db 27,FEAROW
+	db 27,LARVITAR
+	db 28,RATTATA
+	db 29,MILTANK
+	db 29,SLUGMA
+	db 31,DODUO
+	db 28,SWINUB
+	db 29,MURKROW
+	db 30,RATICATE
+	db 31,EEVEE
+ENDC
+IF DEF(_GREEN)
+	db 37,FEAROW
+	db 37,LARVITAR
+	db 38,RATTATA
+	db 39,MILTANK
+	db 39,SLUGMA
+	db 41,DODUO
+	db 38,SWINUB
+	db 39,MURKROW
+	db 40,RATICATE
+	db 41,EEVEE
+ENDC
 
 ; Water Mons
 	db $00

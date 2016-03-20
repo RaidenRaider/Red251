@@ -1,6 +1,7 @@
 MoonMonsB1:
 ; Grass Mons
 	db $0A
+IF DEF(_RED)
 	db 8,ZUBAT
 	db 7,LEDYBA
 	db 7,YANMA
@@ -11,6 +12,31 @@ MoonMonsB1:
 	db 11,SANDSHREW
 	db 9,CLEFAIRY
 	db 9,CLEFAIRY
+ENDC
+IF DEF(_BLUE)
+	db 13,ZUBAT
+	db 12,LEDYBA
+	db 12,YANMA
+	db 13,SPINARAK
+	db 14,GEODUDE
+	db 15,PARAS
+	db 15,PARAS
+	db 16,SANDSHREW
+	db 14,CLEFAIRY
+	db 14,CLEFAIRY
+ENDC
+IF DEF(_GREEN)
+	db 23,ZUBAT
+	db 22,LEDYBA
+	db 22,YANMA
+	db 23,SPINARAK
+	db 24,GEODUDE
+	db 25,PARAS
+	db 25,PARAS
+	db 26,SANDSHREW
+	db 24,CLEFAIRY
+	db 24,CLEFAIRY
+ENDC
 
 ; Water Mons
 	db $00

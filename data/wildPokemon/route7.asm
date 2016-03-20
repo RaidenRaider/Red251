@@ -1,6 +1,7 @@
 Route7Mons:
 ; Grass Mons
 	db $0F
+IF DEF(_RED)
 	db 19,PIDGEY
 	db 19,ABRA
 	db 17,MANKEY
@@ -11,6 +12,31 @@ Route7Mons:
 	db 20,GROWLITHE
 	db 19,HOUNDOUR
 	db 20,MURKROW
+ENDC
+IF DEF(_BLUE)
+	db 24,PIDGEY
+	db 24,ABRA
+	db 22,MANKEY
+	db 27,VULPIX
+	db 27,NATU
+	db 23,MEOWTH
+	db 23,SLUGMA
+	db 25,GROWLITHE
+	db 24,HOUNDOUR
+	db 25,MURKROW
+ENDC
+IF DEF(_GREEN)
+	db 34,PIDGEY
+	db 34,ABRA
+	db 32,MANKEY
+	db 37,VULPIX
+	db 37,NATU
+	db 33,MEOWTH
+	db 33,SLUGMA
+	db 35,GROWLITHE
+	db 34,HOUNDOUR
+	db 35,MURKROW
+ENDC
 
 ; Water Mons
 	db $00

@@ -1,6 +1,7 @@
 Route2Mons:
 ; Grass Mons
 	db $19
+IF DEF(_RED)
 	db 3,SPINARAK
 	db 3,LEDYBA
 	db 4,PIDGEY
@@ -11,6 +12,31 @@ Route2Mons:
 	db 5,RATTATA
 	db 5,WEEDLE
 	db 5,CATERPIE
+ENDC
+IF DEF(_BLUE)
+	db 5,SPINARAK
+	db 5,LEDYBA
+	db 6,PIDGEY
+	db 6,RATTATA
+	db 7,PIDGEY
+	db 5,WEEDLE
+	db 5,CATERPIE
+	db 7,RATTATA
+	db 7,WEEDLE
+	db 7,CATERPIE
+ENDC
+IF DEF(_GREEN)
+	db 10,SPINARAK
+	db 10,LEDYBA
+	db 11,PIDGEY
+	db 11,RATTATA
+	db 12,PIDGEY
+	db 10,WEEDLE
+	db 10,CATERPIE
+	db 12,RATTATA
+	db 12,WEEDLE
+	db 12,CATERPIE
+ENDC
 
 ; Water Mons
 	db $00

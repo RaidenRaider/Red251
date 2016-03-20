@@ -1,6 +1,7 @@
 IslandMonsB4:
 ; Grass Mons
 	db $0A
+IF DEF(_RED)
 	db 36,GOLBAT
 	db 36,ZUBAT
 	db 30,KRABBY
@@ -11,6 +12,31 @@ IslandMonsB4:
 	db 45,ZUBAT
 	db 30,DEWGONG
 	db 34,DEWGONG
+ENDC
+IF DEF(_BLUE)
+	db 41,GOLBAT
+	db 41,ZUBAT
+	db 35,KRABBY
+	db 37,KINGLER
+	db 33,SEEL
+	db 37,SEEL
+	db 32,GOLBAT
+	db 50,ZUBAT
+	db 35,DEWGONG
+	db 39,DEWGONG
+ENDC
+IF DEF(_GREEN)
+	db 51,GOLBAT
+	db 51,ZUBAT
+	db 45,KRABBY
+	db 47,KINGLER
+	db 43,SEEL
+	db 47,SEEL
+	db 42,GOLBAT
+	db 60,ZUBAT
+	db 55,DEWGONG
+	db 49,DEWGONG
+ENDC
 
 ; Water Mons
 	db $00

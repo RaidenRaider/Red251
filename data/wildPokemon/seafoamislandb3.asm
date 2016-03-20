@@ -1,6 +1,7 @@
 IslandMonsB3:
 ; Water Mons
 	db $0A
+IF DEF(_RED)
 	db 31,HORSEA
 	db 31,SEEL
 	db 33,HORSEA
@@ -11,6 +12,31 @@ IslandMonsB3:
 	db 29,STARYU
 	db 39,SLOWKING
 	db 37,DEWGONG
+ENDC
+IF DEF(_BLUE)
+	db 36,HORSEA
+	db 36,SEEL
+	db 38,HORSEA
+	db 38,SEEL
+	db 34,KRABBY
+	db 36,STARYU
+	db 36,KRABBY
+	db 34,STARYU
+	db 44,SLOWKING
+	db 42,DEWGONG
+ENDC
+IF DEF(_GREEN)
+	db 46,HORSEA
+	db 46,SEEL
+	db 48,HORSEA
+	db 48,SEEL
+	db 44,KRABBY
+	db 46,STARYU
+	db 46,KRABBY
+	db 44,STARYU
+	db 54,SLOWKING
+	db 52,DEWGONG
+ENDC
 
 ; Water Mons
 	db $00

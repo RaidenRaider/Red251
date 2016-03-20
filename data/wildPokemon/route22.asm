@@ -1,6 +1,7 @@
 Route22Mons:
 ; Grass Mons
 	db $19
+IF DEF(_RED)
 	db 2,NIDORAN_M
 	db 2,NIDORAN_F
 	db 3,AIPOM
@@ -11,6 +12,31 @@ Route22Mons:
 	db 2,MEOWTH
 	db 4,HOOTHOOT
 	db 6,SPEAROW
+ENDC
+IF DEF(_BLUE)
+	db 7,NIDORAN_M
+	db 7,NIDORAN_F
+	db 8,AIPOM
+	db 8,SNUBBULL
+	db 9,NIDORAN_M
+	db 9,NIDORAN_F
+	db 10,MANKEY
+	db 7,MEOWTH
+	db 9,HOOTHOOT
+	db 11,SPEAROW
+ENDC
+IF DEF(_GREEN)
+	db 17,NIDORAN_M
+	db 17,NIDORAN_F
+	db 18,AIPOM
+	db 18,SNUBBULL
+	db 19,NIDORAN_M
+	db 19,NIDORAN_F
+	db 20,MANKEY
+	db 17,MEOWTH
+	db 19,HOOTHOOT
+	db 21,SPEAROW
+ENDC
 
 ; Water Mons
 	db $00

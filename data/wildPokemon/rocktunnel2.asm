@@ -1,6 +1,7 @@
 TunnelMonsB2:
 ; Grass Mons
 	db $0F
+IF DEF(_RED)
 	db 14,CORSOLA
 	db 15,HOOTHOOT
 	db 22,ZUBAT
@@ -13,6 +14,35 @@ TunnelMonsB2:
 	db 20,MACHOP
 	db 22,ONIX
 	db 25,LARVITAR
+ENDC
+IF DEF(_BLUE)
+	db 19,CORSOLA
+	db 20,HOOTHOOT
+	db 27,ZUBAT
+	db 18,SHUCKLE
+	db 19,PHANPY
+	db 26,GEODUDE
+	db 23,GLIGAR
+	db 23,DITTO
+	db 23,SENTRET
+	db 25,MACHOP
+	db 27,ONIX
+	db 30,LARVITAR
+ENDC
+IF DEF(_GREEN)
+	db 29,CORSOLA
+	db 30,HOOTHOOT
+	db 37,ZUBAT
+	db 28,SHUCKLE
+	db 29,PHANPY
+	db 36,GEODUDE
+	db 33,GLIGAR
+	db 33,DITTO
+	db 33,SENTRET
+	db 35,MACHOP
+	db 37,ONIX
+	db 40,LARVITAR
+ENDC
 
 ; Water Mons
 	db $00

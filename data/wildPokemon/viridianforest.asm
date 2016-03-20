@@ -1,6 +1,7 @@
 ForestMons:
 ; Grass Mons
 	db $19
+IF DEF(_RED)
 	db 4,WEEDLE
 	db 4,LEDYBA
 	db 3,SPINARAK
@@ -12,6 +13,33 @@ ForestMons:
 	db 3,PIKACHU
 	db 5,MAREEP
 	db 8,PIKACHU
+ENDC
+IF DEF(_BLUE)
+	db 9,WEEDLE
+	db 9,LEDYBA
+	db 8,SPINARAK
+	db 8,CATERPIE
+	db 11,KAKUNA
+	db 11,PINECO
+	db 10,YANMA
+	db 10,METAPOD
+	db 8,PIKACHU
+	db 10,MAREEP
+	db 13,PIKACHU
+ENDC
+IF DEF(_GREEN)
+	db 19,WEEDLE
+	db 19,LEDYBA
+	db 18,SPINARAK
+	db 18,CATERPIE
+	db 21,KAKUNA
+	db 21,PINECO
+	db 20,YANMA
+	db 20,METAPOD
+	db 18,PIKACHU
+	db 20,MAREEP
+	db 23,PIKACHU
+ENDC
 
 ; Water Mons
 	db $00
