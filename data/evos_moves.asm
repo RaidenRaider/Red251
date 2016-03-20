@@ -3318,7 +3318,7 @@ Mon154_EvosMoves:
 Mon155_EvosMoves:
 ;CYNDAQUIL
 ;Evolutions
-	db EV_LEVEL,16,QUILAVA
+	db EV_LEVEL,14,QUILAVA
 	db 0
 ;Learnset
 	db 10,LEER
@@ -3383,7 +3383,7 @@ Mon157_EvosMoves:
 Mon158_EvosMoves:
 ;TOTODILE
 ;Evolutions
-	db EV_LEVEL,16,CROCONAW
+	db EV_LEVEL,14,CROCONAW
 	db 0
 ;Learnset
 	db 10,WATER_GUN
@@ -3405,7 +3405,7 @@ Mon158_EvosMoves:
 Mon159_EvosMoves:
 ;CROCONAW
 ;Evolutions
-	db EV_LEVEL,36,FERALIGATR
+	db EV_LEVEL,30,FERALIGATR
 	db 0
 ;Learnset
 	db 10,WATER_GUN
@@ -3449,7 +3449,7 @@ Mon160_EvosMoves:
 Mon161_EvosMoves:
 ;SENTRET
 ;Evolutions
-	db EV_LEVEL,20,FURRET
+	db EV_LEVEL,15,FURRET
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -3492,7 +3492,7 @@ Mon162_EvosMoves:
 Mon163_EvosMoves:
 ;HOOTHOOT
 ;Evolutions
-	db EV_LEVEL,30,NOCTOWL
+	db EV_LEVEL,20,NOCTOWL
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -3535,7 +3535,7 @@ Mon164_EvosMoves:
 Mon165_EvosMoves:
 ;LEDYBA
 ;Evolutions
-	db EV_LEVEL,20,LEDIAN
+	db EV_LEVEL,18,LEDIAN
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -3578,7 +3578,7 @@ Mon166_EvosMoves:
 Mon167_EvosMoves:
 ;SPINARAK
 ;Evolutions
-	db EV_LEVEL,25,ARIADOS
+	db EV_LEVEL,22,ARIADOS
 	db 0
 ;Learnset
 	db 7,BITE
@@ -3714,7 +3714,7 @@ Mon174_EvosMoves:
 Mon175_EvosMoves:
 ;TOGEPI
 ;Evolutions
-	db EV_LEVEL,25,TOGETIC
+	db EV_LEVEL,15,TOGETIC
 	db 0
 ;Learnset
 	db 5,GROWL
@@ -3754,7 +3754,7 @@ Mon176_EvosMoves:
 Mon177_EvosMoves:
 ;NATU
 ;Evolutions
-	db EV_LEVEL,20,XATU
+	db EV_LEVEL,25,XATU
 	db 0
 ;Learnset
 	db 7,LEER
@@ -3797,7 +3797,7 @@ Mon178_EvosMoves:
 Mon179_EvosMoves:
 ;MAREEP
 ;Evolutions
-	db EV_LEVEL,25,FLAAFFY
+	db EV_LEVEL,15,FLAAFFY
 	db 0
 ;Learnset
 	db 7,GROWL
@@ -3819,7 +3819,7 @@ Mon179_EvosMoves:
 Mon180_EvosMoves:
 ;FLAAFFY
 ;Evolutions
-	db EV_ITEM,THUNDER_STONE,1,AMPHAROS
+	db EV_LEVEL,30,AMPHAROS
 	db 0
 ;Learnset
 	db 7,GROWL
@@ -3883,7 +3883,7 @@ Mon182_EvosMoves:
 Mon183_EvosMoves:
 ;MARILL
 ;Evolutions
-	db EV_ITEM,WATER_STONE,1,AZUMARILL
+	db EV_LEVEL,18,AZUMARILL
 	db 0
 ;Learnset
 	db 7,BUBBLE
@@ -3965,7 +3965,7 @@ Mon186_EvosMoves:
 Mon187_EvosMoves:
 ;HOPPIP
 ;Evolutions
-	db EV_LEVEL,24,SKIPLOOM
+	db EV_LEVEL,18,SKIPLOOM
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -3986,7 +3986,7 @@ Mon187_EvosMoves:
 Mon188_EvosMoves:
 ;SKIPLOOM
 ;Evolutions
-	db EV_ITEM,LEAF_STONE,1,JUMPLUFF
+	db EV_LEVEL,27,JUMPLUFF
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -4047,7 +4047,7 @@ Mon190_EvosMoves:
 Mon191_EvosMoves:
 ;SUNKERN
 ;Evolutions
-	db EV_LEVEL,23,SUNFLORA
+	db EV_ITEM,SUN_STONE,1,SUNFLORA
 	db 0
 ;Learnset
 	db 7,GROWTH
@@ -4110,7 +4110,7 @@ Mon193_EvosMoves:
 Mon194_EvosMoves:
 ;WOOPER
 ;Evolutions
-	db EV_LEVEL,33,QUAGSIRE
+	db EV_LEVEL,20,QUAGSIRE
 	db 0
 ;Learnset
 	db 8,WATER_GUN
@@ -4291,7 +4291,7 @@ Mon203_EvosMoves:
 Mon204_EvosMoves:
 ;PINECO
 ;Evolutions
-	db EV_LEVEL,25,FORRETRESS
+	db EV_LEVEL,31,FORRETRESS
 	db 0
 ;Learnset
 	db 6,TACKLE
@@ -4380,7 +4380,7 @@ Mon208_EvosMoves:
 Mon209_EvosMoves:
 ;SNUBBULL
 ;Evolutions
-	db EV_LEVEL,20,GRANBULL
+	db EV_LEVEL,23,GRANBULL
 	db 0
 ;Learnset
 	db 7,QUICK_ATTACK
@@ -4514,7 +4514,7 @@ Mon215_EvosMoves:
 Mon216_EvosMoves:
 ;TEDDIURSA
 ;Evolutions
-	db EV_LEVEL,26,URSARING
+	db EV_LEVEL,30,URSARING
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -4596,7 +4596,7 @@ Mon219_EvosMoves:
 Mon220_EvosMoves:
 ;SWINUB
 ;Evolutions
-	db EV_LEVEL,26,PILOSWINE
+	db EV_LEVEL,33,PILOSWINE
 	db 0
 ;Learnset
 	db 7,TACKLE
@@ -4650,7 +4650,7 @@ Mon222_EvosMoves:
 Mon223_EvosMoves:
 ;REMORAID
 ;Evolutions
-	db EV_ITEM,WATER_STONE,1,OCTILLERY
+	db EV_LEVEL,25,OCTILLERY
 	db 0
 ;Learnset
 	db 8,LEER
@@ -4818,7 +4818,7 @@ Mon230_EvosMoves:
 Mon231_EvosMoves:
 ;PHANPY
 ;Evolutions
-	db EV_ITEM,LEAF_STONE,1,DONPHAN
+	db EV_LEVEL,25,DONPHAN
 	db 0
 ;Learnset
 	db 8,STOMP
