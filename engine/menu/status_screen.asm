@@ -20,7 +20,7 @@ StatusScreen: ; 12953 (4:6953)
 	call ClearScreen
 	call UpdateSprites ; move sprites (?)
 	call LoadHpBarAndStatusTilePatterns
-	ld de, BattleHudTiles1  ; $6080 ; source
+	ld de, BattleHudTiles1 ; $6080 ; source
 	ld hl, vChars2 + $6d0 ; dest
 	ld bc, (BANK(BattleHudTiles1) << 8) + $03 ; bank bytes/8
 	call CopyVideoDataDouble ; ·│ :L and halfarrow line end
@@ -58,6 +58,18 @@ StatusScreen: ; 12953 (4:6953)
 	predef DrawHP
 	ld hl, wcf25
 	call GetHealthBarColor
+	; is mon supposed to be shiny?
+	ld b, Bank(IsMonShiny)
+	ld hl, IsMonShiny
+	ld de, wLoadedMonDVs
+	call Bankswitch
+	ld hl, wShinyMonFlag
+	jr nz, .shiny
+	res 0, [hl]
+	jr .setPAL
+.shiny
+	set 0, [hl]
+.setPAL
 	ld b, $3
 	call GoPAL_SET ; SGB palette
 	hlCoord 16, 6
@@ -99,6 +111,7 @@ StatusScreen: ; 12953 (4:6953)
 	ld de, wLoadedMonOTID
 	ld bc, $8205 ; 5
 	call PrintNumber ; ID Number
+	call PrintShinySymbol
 	ld d, $0
 	call PrintStatsBox
 	call Delay3
@@ -177,6 +190,19 @@ DrawLineBox ; 0x12ac7
 PTile: ; 12adc (4:6adc) ; This is a single 1bpp "P" tile
 	INCBIN "gfx/p_tile.1bpp"
 
+PrintShinySymbol:
+; check if mon is shiny
+	ld b, Bank(IsMonShiny)
+	ld hl, IsMonShiny
+	ld de, wLoadedMonDVs
+	call Bankswitch
+	ret z
+	; draw the shiny symbol
+	hlCoord 0, 0
+	ld a, "[SHINY]"
+	ld [hl], a
+	ret
+
 PrintStatsBox: ; 12ae4 (4:6ae4)
 	ld a, d
 	and a ; a is 0 from the status screen
@@ -212,7 +238,7 @@ PrintStatsBox: ; 12ae4 (4:6ae4)
 	call PrintStat
 	ld de, wLoadedMonSpecial
 	jp PrintNumber
-PrintStat
+	PrintStat
 	push hl
 	call PrintNumber
 	pop hl
@@ -221,7 +247,7 @@ PrintStat
 	ret
 
 StatsText: ; 12b3a (4:6b3a)
-	db   "ATTACK"
+	db "ATTACK"
 	next "DEFENSE"
 	next "SPEED"
 	next "SPECIAL@"
@@ -411,3 +437,4 @@ Func_12ccb: ; 12ccb (4:6ccb)
 	dec c
 	jr nz, Func_12ccb
 	ret
+	
